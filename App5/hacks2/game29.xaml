@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App5.Views.game29"
+             Title="Рисование силуэтов"
+             BackgroundColor="#e5e5e5">
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame  BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <Label Text="Рисование силуэтов"
+                       TextColor="Black"
+                       FontSize="25"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"/>
+                        <Label Text="Из листа бумаги делается трафарет. Внутри листа вырезается простой силуэт, например, елочка, домик, грибочек. Трафарет накладывается на чистый лист бумаги, малыш разукрашивает окошко трафарета (силуэты елочки, грибочков и т.п.). В конце работы трафарет удаляется, и на нижнем листе бумаги остается симпатичное детское творчество."
+                           TextColor="Black"
+                           FontSize="20"
+                           HorizontalOptions="FillAndExpand"/>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

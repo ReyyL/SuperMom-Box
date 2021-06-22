@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App5.Views.game38"
+             Title="Театр из фетра"
+             BackgroundColor="#e5e5e5">
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame  BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <Label Text="Театр из фетра"
+                       TextColor="Black"
+                       FontSize="25"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"/>
+                        <Label Text="Данный театр и его отдельные части можно задействовать в театре теней. С большим удовольствием следят малыши за движущимися на ярко освещенном экране фигурами. Театр теней приковывает их внимание, развивает умение сосредоточиваться.
+&#10;   Фигурки театра невелики, ими можно играть на столе, на полу, в машине и даже на природе. Если твой ребенок эмоционален и любит покапризничать, привлекай маленькую пальчиковую игрушку в помощники. В самый сложный момент, достань игрушку и поделись с ней своей проблемой. Например, «Моя дочка не хочет уходить с площадки, ей тут очень интересно, но дело в том, что пора обедать». Игрушка посочувствует и предложит варианты. Очень часто ребенок 2-3 лет не соглашается на прямые предложения, он даже не прислушивается к аргументам. Но когда мы привлекаем в качестве третьего лица игрушку, то, что он отвергал раньше, обретает смысл."
+                           TextColor="Black"
+                           FontSize="20"
+                           HorizontalOptions="FillAndExpand"/>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

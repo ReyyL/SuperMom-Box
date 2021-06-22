@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box135"
+             BackgroundColor="#e5e5e5"
+             Title="Погремушка">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <!--имя-->
+                        <Label Text="Бубен " 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="Музыка всегда наряду с движением, речью и игрушками являлась необходимым условием общего развития детей. Игра на бубне развивает музыкальный слух, чувство ритма и такта, координацию и мышление."
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                        <!--как-->
+                        <Label Text="Покажи, что у бубна есть разное звучание: его можно потрясти, а можно постучать пальчиком. А ещё можно походить, побегать или попрыгать под этот звон. Научи ребенка одновременно держать и стучать ладошкой по бубну. Кроме того, бубен можно использовать утром для зарядки, а также для обыгрывания стихов и потешек."
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

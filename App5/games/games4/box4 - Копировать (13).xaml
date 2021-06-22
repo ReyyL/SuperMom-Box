@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box412"
+             BackgroundColor="#e5e5e5"
+             Title="Набор пальчиковых кукол">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <Label Text="Набор пальчиковых кукол" 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="Герои этого «театра» наверняка станут малышу добрыми друзьями. Разыгрывая спектакли, мы стимулируем воображение малыша. Разучивая и исполняя роли, ребенок пополняет свой словарный запас и активизирует свои речевые функции.
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <!--как-->
+                        <Label Text="Вспомните с ребенком его любимую сказку, разыграйте ее. Можно начать с того, что роли будешь исполнять ты. Затем посмотри, какое представление подготовит для тебя твой малыш.
+&#10;   Набор можно использовать для изучения числительных. Например, «В сказке «Теремок» стали жить мышка, лягушка, заяц. Их было трое. Потом пришла лиса – их стало четверо».
+&#10;   Появление новых героев поможет познакомить ребенка с понятием последовательности. Например, в сказке колобок встретил первым зайца, вторым - волка, третьим -  медведя, а четвертым и последним - лису. Располагая фигурки, познакомь ребенка с понятиями «справа – слева», «рядом», «друг за другом» и др.
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

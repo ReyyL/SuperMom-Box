@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box230"
+             BackgroundColor="#e5e5e5"
+             Title="Волшебный комодик">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <Label Text="Волшебный комодик" 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="«Комодик» – удивительная развивающая игрушка, которая объединяет сразу несколько интересных игр и занятий: вкладыши, сортировка, счет и сравнение предметов. Такая игрушка приносит ребенку не только массу положительных эмоций, но и помогает в развитии любознательности, усидчивости и терпения. В процессе игры с «Комодиком», активные действия пальчиками развивают мелкую моторику и стимулируют развитие речи."
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <!--как-->
+                        <Label Text="Особая прелесть 'Комодика' в его многофункциональности. Покажи крохе, как сортировать элементы по ящикам с учетом цвета. Используйте детали, как счетный материал, играйте в «Волшебный мешочек» или «Что пропало?» Рассматривайте фигурки. Но самым любимым занятием для малыша, наверняка, будет открывание и закрывание ящичков.
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

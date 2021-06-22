@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box141"
+             BackgroundColor="#e5e5e5"
+             Title="Погремушка">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <!--имя-->
+                        <Label Text="Конструктор " 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="Детские конструкторы – развивающая и полезная игрушка, которая нравится всем малышам. Яркие детали привлекают внимание ребенка, а процесс сбора фигур из них развивает мелкую моторику и мелкие мышцы рук, логику, аналитическое мышление, усидчивость и терпеливость, умение концентрироваться."
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                        <!--как-->
+                        <Label Text="Покажи малышу отдельные части конструктора, для ребенка они означают просто предметы, а потом на глазах малыша построй домик. Скажи: «Посмотри, что получится, если эти детали сложить вместе, вот так!». Сначала покажи, как играть получившейся игрушкой, а потом предложи крохе сложить эту игрушку из деталей конструктора. «Давай мы вместе будем сейчас складывать!» "
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

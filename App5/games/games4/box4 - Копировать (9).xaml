@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box43"
+             BackgroundColor="#e5e5e5"
+             Title="Разрезные картинки">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <!--имя-->
+                        <Label Text="Разрезные картинки" 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="Занимательная игра для развития воображения и памяти. Реалистичные картинки расширят познания ребенка об окружающем мире, а собирание целого из частей позволит почувствовать себя настоящим волшебником – было много разных деталей, а получился один большой слон, например.
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <!--как-->
+                        <Label Text="Собирайте изображения из подходящих деталей. Начать можно с одной картинки, затем добавить вторую, и постепенно прийти к перемешиванию деталей всех изображений. 
+&#10;   Считая элементы картинки, ребенок может освоить первичные навыки счета. Спроси у него, из скольки деталек состоит то или иное изображение, сосчитайте вместе.
+&#10;   Для развития коммуникативно-речевых навыком, попроси малыша рассказать, что он знает о героях изображений. Вспомните, где они живут, чем питаются. Найдите похожие на изображения игрушки в запасах ребенка, сопоставьте и сравните их. 
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

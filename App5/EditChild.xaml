@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.EditChild"
+             BackgroundColor="#e5e5e5"
+             Title="Редактирование">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.GestureRecognizers>
+                <PanGestureRecognizer PanUpdated="OnPanUpdated" />
+            </Grid.GestureRecognizers>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <ScrollView Grid.ColumnSpan="2">
+                <StackLayout Margin="50,20,50,50">
+                    <Frame CornerRadius="10" BackgroundColor="Black" Margin="0,30,0,30">
+                        <Entry x:Name="Surname" 
+                   Placeholder="Фамилия" 
+                   BackgroundColor="#EFEFEF" 
+                   TextColor="Black" 
+                   PlaceholderColor="#9A9A9A"
+                   Margin="-20,-20,-20,-20"
+                   HeightRequest="50"></Entry>
+                    </Frame>
+                    <Frame CornerRadius="10" BackgroundColor="Black" Margin="0,0,0,30">
+                        <Entry x:Name="Name"
+                   Placeholder="Имя" 
+                   BackgroundColor="#EFEFEF" 
+                   TextColor="Black" 
+                   PlaceholderColor="#9A9A9A"
+                   Margin="-20,-20,-20,-20"
+                   HeightRequest="50"></Entry>
+                    </Frame>
+                    <Frame CornerRadius="10" BackgroundColor="Black" Margin="0,0,0,30">
+                        <Entry x:Name="Name3"
+                   Placeholder="Отчество" 
+                   BackgroundColor="#EFEFEF" 
+                   TextColor="Black" 
+                   PlaceholderColor="#9A9A9A"
+                   Margin="-20,-20,-20,-20"
+                   HeightRequest="50"></Entry>
+                    </Frame>
+
+
+                    <Label Text="Пол" TextColor="#9A9A9A"/>
+                    <StackLayout RadioButtonGroup.GroupName="sex">
+                        <Frame CornerRadius="10" BackgroundColor="Transparent" Margin="0,0,0,0">
+                            <RadioButton Content="Женский" 
+                                 TextColor="Black"
+                                 x:Name="Female"
+                                 GroupName="sex"
+                                 Margin="-18,-20,-20,-17"/>
+                        </Frame>
+                        <Frame CornerRadius="10" BackgroundColor="Transparent" Margin="0,0,0,0">
+                            <RadioButton Content="Мужской" 
+                                  Margin="-18,-20,-20,-17"
+                                  TextColor="Black"
+                                         x:Name="Male"
+                                 GroupName="sex"/>
+                        </Frame>
+                    </StackLayout>
+
+
+                   
+
+
+                    <Button Text="+Добавить фото" 
+                   TextColor="Black"
+                   Margin="0,20,0,10"
+                    BackgroundColor="Transparent"
+                    HorizontalOptions="Start"/>
+
+
+
+
+                </StackLayout>
+            </ScrollView>
+            <Button ImageSource="aapply.png" Clicked="Apply" BackgroundColor="Transparent" Margin="0,0,0,10" Grid.Row="1"
+                    Grid.ColumnSpan="2"></Button>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

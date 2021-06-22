@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box129"
+             BackgroundColor="#e5e5e5"
+             Title="Погремушка">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <!--имя-->
+                        <Label Text="Кубики" 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="Несмотря на свою простоту кубики являются самыми популярными игрушками, которые любят дети разных возрастов. У самых маленьких деток кубики развивают мелкую моторику, а значит и речевые центры в мозгу.Для малышей подходят легкие, пластмассовые яркие кубики. Чем младше ребенок, тем крупнее должны быть кубики, а их количество меньше. "
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                        <!--как-->
+                        <Label Text="Первые игры с кубиками будут такими, как и с любыми другими игрушками: бросание и изучение стука падающей вещи, ощупывание, перекатывания по полу. Затем покажи малышу как поставить один кубик на другой. Построй башенку из кубиков– малыш разрушит ее ударом руки. Такая совместная игра доставит ребенку большую радость.
+&#10;   Можно поиграть в «прятки кубика». Покажи малышу кубик, а потом спрячь его под платок или в мешочек (коробку) у него на глазах. Попроси малыша обнаружить пропажу, не торопи его и не помогай – пусть он сам найдет кубик."
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

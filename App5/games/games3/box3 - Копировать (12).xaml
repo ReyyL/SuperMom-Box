@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box318"
+             BackgroundColor="#e5e5e5"
+             Title="Игра на координацию">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <Label Text="Игра на координацию" 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="Новый вид игры в арсенале уже заметно продвинувшегося в своих умениях малыша. Занимательная конструкция привлечет его внимание, а активности с ней обязательно станут регулярными. 
+&#10;   Эта игра направлена на улучшение координированности действий и соблюдения последовательности,тренировку терпения и усидчивости.
+&#10;   Более того, игра хорошо тренирует мелкую моторику кисти и подготовит маленькие ручки для решения более серьезных задач. Все детали игрушки прячутся в удобную деревянную коробочку. Гамак удобен тем, что он мягкий и способствует шарику запрыгнуть в ложку.
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <!--как-->
+                        <Label Text="Устанавливаем 'гамачок' и кладем в него разноцветные шарики. Берем деревянную ложку и пытаемся зачерпнуть шарик в ложку и перенести его, например, в тарелочку.
+&#10;   Данная игрушка может также помочь в повторении цветов. Спрашивай малыша «Шарик какого цвета тебе сейчас попался». Вспомните вместе, какие еще предметы могут быть круглыми или похожими на шар (шарик мороженого, часы на руке, кружка при взгляде сверху и т.д.)
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

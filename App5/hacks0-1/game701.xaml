@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.game701"
+             Title="Сенсорная коробка"
+             BackgroundColor="#e5e5e5">
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame  BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <Label Text="Сенсорная коробка"
+                       TextColor="Black"
+                       FontSize="25"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"/>
+                        <Label Text="Ум ребенка находится на кончиках его пальцев. Это означает, что малыш познает мир и развивает речь через пальчики: ему необходимо все потрогать, пощупать, попробовать, поплескаться, поэтому важно получать как можно больше самых разных ощущений. Универсальной вещью для тактильных игр является сенсорная коробка. Возьми коробку и положи в неё предметы, разные по форме, цвету и материалу : клубочки, колокольчик, щетку, мячик-ежик, деревянную ложку, губку, кубики и т.д. Малыш будет изучать эти предметы, перебирать их, исследуя свойства. Предметы нужно будет время от времени менять."
+                           TextColor="Black"
+                           FontSize="20"
+                           HorizontalOptions="FillAndExpand"/>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

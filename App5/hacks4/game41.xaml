@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App5.Views.game41"
+             Title="Волшебное превращение"
+             BackgroundColor="#e5e5e5">
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame  BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <Label Text="Волшебное превращение"
+                       TextColor="Black"
+                       FontSize="25"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"/>
+                        <Label Text="Предложи ребенку вспомнить, кто такой Колобок. Покажи картинку, на которой он нарисован. Спроси, можно ли превратить Колобка в ежика? Малыш наверняка удивится. Раскрой секрет: нужно нарисовать круг (это и будет Колобок) и «украсить» его «иголками» из спичек (зубочисток, счётных палочек) -  получится ежик! Можно превратить круг в солнце или «построить» забор и так далее."
+                           TextColor="Black"
+                           FontSize="20"
+                           HorizontalOptions="FillAndExpand"/>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

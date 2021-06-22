@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box35"
+             BackgroundColor="#e5e5e5"
+             Title="Разрезные картинки">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <Label Text="Разрезные картинки" 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="Увлекательная игра-головоломка, в которой необходимо составить целую картинку из фрагментов. Сборка такой мозаики поможет с пользой провести досуг, а также поспособствует развитию цветового восприятия, логического мышления и мелкой моторики.
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <!--как-->
+                        <Label Text="Если вы уже собирали вместе разрезные картинки или пазлы, то можно предложить малышу разобрать и собрать все картинки сразу. Когда все картинки собраны, попроси ребенка рассказать, кто на них изображен, какие звуки издает, где живет и т.п.  У малыша уже достаточно опыта для этого!
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

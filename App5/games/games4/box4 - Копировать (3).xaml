@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box49"
+             BackgroundColor="#e5e5e5"
+             Title="Набор «Повар»">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <Label Text="Набор «Повар»" 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="Этот набор для игр сюжетно-ролевого характера состоит из самых необходимых настоящему повару предметов. Он создан специально для маленьких поварят, которые любят помогать своим мамам на кухне, и для тех, кого еще только нужно заинтересовать этим процессом. Набор Юного Повара поможет окунуться в захватывающий мир взрослых профессий и даст ребенку почувствовать себя настоящим профи на кухне.
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <!--как-->
+                        <Label Text="Расскажи ребенку о профессии повара, ее важности на рынке труда. Объясни малышу значение предметов в наборе. Например, фартук и колпак являются важными предметами для соблюдения гигиены. Фартук помогает сохранить одежду в чистоте, а колпак не только для красоты и важности 
+&#10;   Позволь своему чаду помочь тебе в приготовлении простого блюда. Привлечение к труду с самого раннего детства поможет воспитать в ребенке отзывчивость и желание помогать.
+&#10;   Набор может использоваться малышом и в самостоятельных играх на его импровизированной кухне.
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

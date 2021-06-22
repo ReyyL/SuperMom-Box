@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box28"
+             BackgroundColor="#e5e5e5"
+             Title="Пазл с крупными деталями">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <Label Text="Пазл с крупными деталями" 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="Пазл – это образовательная игра, которая развивает усидчивость, аккуратность, терпение и внимательность. Когда малыш собирает картинку, он узнает, как устанавливаются связи между частицей и целым. Ребенок развивает логику, мышление, мелкую моторику рук.
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <!--как-->
+                        <Label Text="На первоначальном этапе пазлы складывайте по инициативе взрослого. Объясни ребенку систему: чтобы увидеть целую картинку, надо нам собрать составные части. Ребенок подает части пазлов по просьбе взрослого, а взрослый их складывает. Можно попросить малыша прижать элемент пазла пальчиком после того, как ты подставила его в нужное место.  Постепенно показывай ребенку, куда положить пазл, покажи, что надо крутить их и подставлять друг другу.
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.game0118" Title="Поймай игрушку"
+             BackgroundColor="#e5e5e5">
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame  BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <Label Text="Поймай игрушку"
+                       TextColor="Black"
+                       FontSize="25"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"/>
+                        <Label Text="Дай ребенку небольшое сито или поварешку, а игрушки опусти в таз с водой. Он будет зачерпывать ситом игрушки, и вынимать их из воды. Эта игра способствует развитию координации движений."
+                           TextColor="Black"
+                           FontSize="20"
+                           HorizontalOptions="FillAndExpand"/>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

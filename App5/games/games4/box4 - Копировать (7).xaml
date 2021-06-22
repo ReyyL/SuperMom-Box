@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box45"
+             BackgroundColor="#e5e5e5"
+             Title="Кастаньет">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <!--имя-->
+                        <Label Text="Кастаньет" 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="В оркестре малыша пополнение - еще один музыкальный инструмент, необычный и в то же время очень знакомый. Он совсем несложен в использовании и похож на первые музыкальные инструменты ребенка – погремушки.  Кастаньет поможет развить у ребенка чувство ритма, память, а веселые танцы под латиноамериканские мотивы принесут массу удовольствия всем членам семьи. Попробуйте!
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <!--как-->
+                        <Label Text="Воспроизводи инструментом несложные ритмические «рисунки», давая ребенку почувствовать ритм. Можно начать со знакомых песенок-потешек.  Помогай ребенку зафиксировать свое внимание на инструменте, а затем дай ему возможность самостоятельно повторить ритмический «рисунок». Поставьте перед собой задачу, выучить один несложный ритмический фрагмент за определенное количество времени (от 5 до 7 дней).
+&#10;   В свободные минутки включайте музыку и просто веселитесь от души, представляя себя отдыхающими на теплом дивном острове! Пусть звук кастаньета перенесет вас в далекие солнечные края!
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

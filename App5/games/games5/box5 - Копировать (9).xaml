@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box53"
+             BackgroundColor="#e5e5e5"
+             Title="Набор «Кормушка»">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <!--имя-->
+                        <Label Text="Набор «Кормушка»" 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="   Набор представляет собой вид конструктора, при сборке которого получится не абстрактная игрушка, а самое настоящее прикладное изделие. Выполнение поочередных действий приведет малыша к результату и покажет, что для достижения успеха важны внимательность и усердие.  
+&#10;   Дальнейшее украшение домика для птиц дает прекрасную возможность для раскрытия творческого потенциала ребенка и его составляющих -  воображения и мышления. 
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <!--как-->
+                        <Label Text="   Конструктор сделан таким образом, что кормушку ребенок сможет собрать своими руками без лишних материалов (клея, гвоздей и т.п.), но не без твоей помощи, конечно. Поработайте вместе и у вас получится замечательный домик для птиц. После того, как кормушка будет собрана, украсьте ее. Выберите материал для украшения: это могут быть не только краски, но и плотные нитки, блестки и т.п.
+&#10;   Объясни ребенку, для чего нужна кормушка и расскажи, как важно заботиться и помогать тем, кто не может этого сделать сам.
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

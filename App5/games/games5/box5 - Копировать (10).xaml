@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box517"
+             BackgroundColor="#e5e5e5"
+             Title="Кинетический песок">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <Label Text="Кинетический песок" 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="   Кинетический песок - превосходный материал для лепки и расслабляющих занятий. Он очень приятный на ощупь, не липнет к рукам, не пачкает одежду и мебель, имеет привлекательные насыщенные цвета, состоит из натуральных материалов. 
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <!--как-->
+                        <Label Text="   С набором для лепки, представленным в данном боксе, и кинетическим песком полет фантазии ничем не ограничен: ребенок может строить замки, создавать красивые узоры, вырезать фигурки и придумывать различные сюжетные сценки с участием небольших фигурок, куколок и машин.
+&#10;   Песок можно раскатывать скалкой, проводить по нему дороги, а можно закопать в песке маленькие сокровища (ракушки, маленькие камни, игрушечки) и потом пытаться их отыскать. 
+&#10;   Игры с песком надолго увлекают детей, развивают их мелкую моторику, связанную с развитием речи, мышление, воображение, улучшают зрительную и двигательную память, координацию и внимание.
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

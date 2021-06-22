@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box113"
+             BackgroundColor="#e5e5e5"
+             Title="Погремушка">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <!--имя-->
+                        <Label Text="Безопасное зеркало" 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="Рано или поздно у каждого малыша происходит знакомство с зеркалом. Пусть это знакомство начнётся с яркого игрушки и станет настоящим развлечением для малыша. Игрушка выполнена из безопасного материала и окрашена в разные цвета. "
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                        <!--как-->
+                        <Label Text="Поиграйте в игру 'Посмотри в зеркало'. Держи зеркало самостоятельно, или дай его малышу, а затем помоги ему увидеть свое отражение в зеркале. Практика показывает, что дети реагируют на зеркало и свое отражение в нем по-разному. Кто-то замечает себя сразу и начинает с интересом рассматривать."
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

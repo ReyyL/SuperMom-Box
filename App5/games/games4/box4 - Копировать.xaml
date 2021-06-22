@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box42"
+             BackgroundColor="#e5e5e5"
+             Title="Кошелек с монетами">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <!--имя-->
+                        <Label Text="Кошелек с монетами" 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="Прекрасный атрибут для сюжетно-ролевых игр, помогающий ребенку почувствовать себя взрослым. У твоего крохи теперь есть собственный кошелек и денежки! Пересчитывание монет поспособствует развитию мелкой моторики, а придумывание новых игр поможет развитию образного мышления. Закрепляем счет, знакомим с первыми математическими действиями.   
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <!--как-->
+                        <Label Text="Воспроизводите ролевые эпизоды при помощи кошелька. Поиграйте в магазин или кафе: назначь условные цены на «товар», а малыша попроси «заплатить» тебе установленное количество монет. Обязательно меняйтесь ролями.  
+&#10;   Используй монетки для изучения чисел. Со временем можно познакомить ребенка со сложением. «Дай мне одну монетку, пожалуйста. И еще одну. У меня теперь две монетки.» и т.д. 
+&#10;   Подключи творческую деятельность – нарисуйте на плотной бумаге и вырежьте свои собственные монеты по образцу этих или других, придумайте им название. У вас теперь собственная денежная система, играть станет еще интереснее! 
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

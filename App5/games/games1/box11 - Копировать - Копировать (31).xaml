@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box16"
+             BackgroundColor="#e5e5e5"
+             Title="Погремушка">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <Label Text="Тактильные игрушки"
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <Label Text="Тактильные игрушки – это игрушки разных форм, рельефов и размеров, которые способствуют развитию мелкой моторики и тактильных ощущений, а яркие цвета стимулируют развитие зрения малыша.
+&#10;   Малышам зачастую сложно удержать гладкий мяч, он выскальзывает из детских ручек во время игры, не давая возможности для исследования, а вот мячик с неровной поверхностью удерживать гораздо легче, поэтому основным критерием выбора тактильных мячиков является их рельеф."
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                        <Label Text="Удивительные мячики смогут надолго занять малыша.Ведь каждый имеет разную текстуру, а значит ребенку будет интересно их изучать. Поочередно вкладываймячики в ручки малыша, помогай ему крутить, вертеть, изучать их."
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box137"
+             BackgroundColor="#e5e5e5"
+             Title="Погремушка">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <!--имя-->
+                        <Label Text="Книги" 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Center"
+                   Margin="30,0,0,10"
+                       FontAttributes="Bold"/>
+                        <!--описание-->
+                        <Label Text="Рассматривать красивые картинки и фотографии — любимое занятие маленьких читателей."
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                        <!--как-->
+                        <Label Text="В возрасте 9 – 12 месяцев рассматривай картинки вместе с малышом, задавайему вопросы.  
+&#10;   - Кто это? Большой и косолапый?
+&#10;   - Медвежонок.
+&#10;   - А какого он цвета? Правильно, коричневого. А кто это рядом?
+&#10;   - Тигр. 
+&#10;   - Давай сосчитаем, сколько у него полосок."
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

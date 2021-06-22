@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box32"
+             BackgroundColor="#e5e5e5"
+             Title="Конструктор деревянный «Машина»">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <Label Text="Конструктор деревянный «Машина»" 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="Конструирование – одно из самых любимых детских занятий. Малыш уже знаком с подобными игрушками, и еще одна доставит ему огромную радость. Ведь эту игрушку можно сломать и сделать вновь! Такая игра отлично развивает мелкую моторику рук и координацию, является отличным подспорьем в тренировке памяти, смекалки и внимания. 
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <!--как-->
+                        <Label Text="Собирая и разбирая конструктор, подключаем воображение. И для девочки, и для мальчика актуальными будут игры в автомастерскую или завод по изготовлению машин. В автомастерской мы «чиним», добавляя новые детали, на заводе заново собираем наш автомобиль. Фантазируем! В следующий раз можно поиграть в больницу для транспорта или магазин автозапчастей. 
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box415"
+             BackgroundColor="#e5e5e5"
+             Title="Лото «Времена года»">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <Label Text="Лото «Времена года»" 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="Расширяем кругозор малыша, закрепляем понятия временных циклов, развиваем внимание и память. Книжка-лото поможет повторить с ребенком цвета и формы, признаки времен года, научит подбирать предмету пару. В веселой игре твой малыш узнает много нового и интересного!
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <!--как-->
+                        <Label Text="Рассмотрите картинки, расскажи малышу, что на них изображено. Вспомните признаки времен года.
+&#10;   Спроси малыша, какое сейчас время года, что ему об этом говорит. Какие «картинки» он видит за окном или во время прогулки?
+&#10;   Предложи ребенку поиграть в ассоциации. Показывай ему картинку и проси воспроизвести звуковой эффект к какому-либо времени года (то есть, какой звук ассоциируется у ребенка с определенным временем года). Это занятие может оказаться очень неожиданным и веселым!
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

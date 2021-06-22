@@ -1,0 +1,829 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="sqlite-net-pcl" Version="1.7.335" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />  
+    <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="content\web.xaml.cs">
+      <DependentUpon>web.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="content\video.xaml.cs">
+      <DependentUpon>video.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="files\boxgames6.xaml.cs">
+      <DependentUpon>boxgames6.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="files\boxgames5.xaml.cs">
+      <DependentUpon>boxgames5.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="files\boxgames4.xaml.cs">
+      <DependentUpon>boxgames4.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="files\boxgames3.xaml.cs">
+      <DependentUpon>boxgames3.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="files\boxgames2.xaml.cs">
+      <DependentUpon>boxgames2.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="files\boxgames1.xaml.cs">
+      <DependentUpon>boxgames1.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="games\games1\box11 - Копировать - Копировать %2810%29 - Копировать %283%29.xaml.cs">
+      <DependentUpon>box11 - Копировать - Копировать (10).xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games1\box11 - Копировать - Копировать %2810%29 - Копировать %284%29.xaml.cs">
+      <DependentUpon>box11 - Копировать - Копировать (10).xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games1\box11 - Копировать - Копировать %2810%29 - Копировать %285%29.xaml.cs">
+      <DependentUpon>box11 - Копировать - Копировать (10).xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games1\box11 - Копировать - Копировать %2810%29 - Копировать %286%29.xaml.cs">
+      <DependentUpon>box11 - Копировать - Копировать (10).xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games1\box11 - Копировать - Копировать %2810%29 - Копировать %287%29.xaml.cs">
+      <DependentUpon>box11 - Копировать - Копировать (10).xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games1\box11 - Копировать - Копировать %2810%29 - Копировать %288%29.xaml.cs">
+      <DependentUpon>box11 - Копировать - Копировать (10).xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games1\box11 - Копировать - Копировать %2810%29 - Копировать.xaml.cs">
+      <DependentUpon>box11 - Копировать - Копировать (10).xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games1\box11 - Копировать - Копировать %2810%29.xaml.cs">
+      <DependentUpon>box11 - Копировать.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games1\box11 - Копировать - Копировать %2811%29.xaml.cs">
+      <DependentUpon>box11 - Копировать.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games1\box11 - Копировать - Копировать %2812%29.xaml.cs">
+      <DependentUpon>box11 - Копировать.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games1\box11 - Копировать - Копировать %2813%29.xaml.cs">
+      <DependentUpon>box11 - Копировать.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games1\box11 - Копировать - Копировать %2814%29.xaml.cs">
+      <DependentUpon>box11 - Копировать.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games1\box11 - Копировать - Копировать %2815%29.xaml.cs">
+      <DependentUpon>box11 - Копировать.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games1\box11 - Копировать - Копировать %2816%29.xaml.cs">
+      <DependentUpon>box11 - Копировать.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games1\box11 - Копировать - Копировать %2817%29.xaml.cs">
+      <DependentUpon>box11 - Копировать.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games1\box11 - Копировать - Копировать %2818%29.xaml.cs">
+      <DependentUpon>box11 - Копировать.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games1\box11 - Копировать - Копировать %2819%29.xaml.cs">
+      <DependentUpon>box11 - Копировать.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games1\box11 - Копировать - Копировать %282%29.xaml.cs">
+      <DependentUpon>box11 - Копировать.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games1\box11 - Копировать - Копировать %2820%29.xaml.cs">
+      <DependentUpon>box11 - Копировать.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games1\box11 - Копировать - Копировать %2821%29.xaml.cs">
+      <DependentUpon>box11 - Копировать.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games1\box11 - Копировать - Копировать %2822%29.xaml.cs">
+      <DependentUpon>box11 - Копировать.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games1\box11 - Копировать - Копировать %2823%29.xaml.cs">
+      <DependentUpon>box11 - Копировать.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games1\box11 - Копировать - Копировать %2824%29.xaml.cs">
+      <DependentUpon>box11 - Копировать.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games1\box11 - Копировать - Копировать %2825%29.xaml.cs">
+      <DependentUpon>box11 - Копировать.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games1\box11 - Копировать - Копировать %2826%29.xaml.cs">
+      <DependentUpon>box11 - Копировать.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games1\box11 - Копировать - Копировать %2827%29.xaml.cs">
+      <DependentUpon>box11 - Копировать.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games1\box11 - Копировать - Копировать %2828%29.xaml.cs">
+      <DependentUpon>box11 - Копировать.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games1\box11 - Копировать - Копировать %2829%29.xaml.cs">
+      <DependentUpon>box11 - Копировать.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games1\box11 - Копировать - Копировать %283%29.xaml.cs">
+      <DependentUpon>box11 - Копировать.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games1\box11 - Копировать - Копировать %2830%29.xaml.cs">
+      <DependentUpon>box11 - Копировать.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games1\box11 - Копировать - Копировать %2831%29.xaml.cs">
+      <DependentUpon>box11 - Копировать.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games1\box11 - Копировать - Копировать %284%29.xaml.cs">
+      <DependentUpon>box11 - Копировать.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games1\box11 - Копировать - Копировать %285%29.xaml.cs">
+      <DependentUpon>box11 - Копировать.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games1\box11 - Копировать - Копировать %286%29.xaml.cs">
+      <DependentUpon>box11 - Копировать.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games1\box11 - Копировать - Копировать %287%29.xaml.cs">
+      <DependentUpon>box11 - Копировать.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games1\box11 - Копировать - Копировать %288%29.xaml.cs">
+      <DependentUpon>box11 - Копировать.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games1\box11 - Копировать - Копировать %289%29.xaml.cs">
+      <DependentUpon>box11 - Копировать.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games1\box11 - Копировать - Копировать.xaml.cs">
+      <DependentUpon>box11 - Копировать.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games1\box11 - Копировать.xaml.cs">
+      <DependentUpon>box11.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games1\box123213123.xaml.cs">
+      <DependentUpon>box123213123.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="games\games1\box11.xaml.cs">
+      <DependentUpon>box11.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="games\games2\box22 - Копировать %2810%29.xaml.cs">
+      <DependentUpon>box22.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games2\box22 - Копировать %2811%29.xaml.cs">
+      <DependentUpon>box22.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games2\box22 - Копировать %2812%29.xaml.cs">
+      <DependentUpon>box22.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games2\box22 - Копировать %2813%29.xaml.cs">
+      <DependentUpon>box22.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games2\box22 - Копировать %2814%29.xaml.cs">
+      <DependentUpon>box22.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games2\box22 - Копировать %2815%29.xaml.cs">
+      <DependentUpon>box22.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games2\box22 - Копировать %2816%29.xaml.cs">
+      <DependentUpon>box22.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games2\box22 - Копировать %2817%29.xaml.cs">
+      <DependentUpon>box22.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games2\box22 - Копировать %2818%29.xaml.cs">
+      <DependentUpon>box22.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games2\box22 - Копировать %2819%29.xaml.cs">
+      <DependentUpon>box22.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games2\box22 - Копировать %282%29.xaml.cs">
+      <DependentUpon>box22.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games2\box22 - Копировать %2820%29.xaml.cs">
+      <DependentUpon>box22.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games2\box22 - Копировать %2821%29.xaml.cs">
+      <DependentUpon>box22.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games2\box22 - Копировать %2822%29.xaml.cs">
+      <DependentUpon>box22.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games2\box22 - Копировать %2823%29.xaml.cs">
+      <DependentUpon>box22.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games2\box22 - Копировать %2824%29.xaml.cs">
+      <DependentUpon>box22.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games2\box22 - Копировать %2825%29.xaml.cs">
+      <DependentUpon>box22.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games2\box22 - Копировать %2826%29.xaml.cs">
+      <DependentUpon>box22.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games2\box22 - Копировать %2827%29.xaml.cs">
+      <DependentUpon>box22.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games2\box22 - Копировать %2828%29.xaml.cs">
+      <DependentUpon>box22.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games2\box22 - Копировать %283%29.xaml.cs">
+      <DependentUpon>box22.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games2\box22 - Копировать %284%29.xaml.cs">
+      <DependentUpon>box22.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games2\box22 - Копировать %285%29.xaml.cs">
+      <DependentUpon>box22.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games2\box22 - Копировать %286%29.xaml.cs">
+      <DependentUpon>box22.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games2\box22 - Копировать %287%29.xaml.cs">
+      <DependentUpon>box22.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games2\box22 - Копировать %288%29.xaml.cs">
+      <DependentUpon>box22.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games2\box22 - Копировать %289%29.xaml.cs">
+      <DependentUpon>box22.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games2\box22 - Копировать.xaml.cs">
+      <DependentUpon>box22.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games2\box22.xaml.cs">
+      <DependentUpon>box22.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="games\games2\box2.xaml.cs">
+      <DependentUpon>box2.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="games\games3\box3 - Копировать %2810%29.xaml.cs">
+      <DependentUpon>box3.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games3\box3 - Копировать %2811%29.xaml.cs">
+      <DependentUpon>box3.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games3\box3 - Копировать %2812%29.xaml.cs">
+      <DependentUpon>box3.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games3\box3 - Копировать %2813%29.xaml.cs">
+      <DependentUpon>box3.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games3\box3 - Копировать %2814%29.xaml.cs">
+      <DependentUpon>box3.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games3\box3 - Копировать %2815%29.xaml.cs">
+      <DependentUpon>box3.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games3\box3 - Копировать %2816%29.xaml.cs">
+      <DependentUpon>box3.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games3\box3 - Копировать %2817%29.xaml.cs">
+      <DependentUpon>box3.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games3\box3 - Копировать %2818%29.xaml.cs">
+      <DependentUpon>box3.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games3\box3 - Копировать %2819%29.xaml.cs">
+      <DependentUpon>box3.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games3\box3 - Копировать %282%29.xaml.cs">
+      <DependentUpon>box3.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games3\box3 - Копировать %283%29.xaml.cs">
+      <DependentUpon>box3.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games3\box3 - Копировать %284%29.xaml.cs">
+      <DependentUpon>box3.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games3\box3 - Копировать %285%29.xaml.cs">
+      <DependentUpon>box3.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games3\box3 - Копировать %286%29.xaml.cs">
+      <DependentUpon>box3.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games3\box3 - Копировать %287%29.xaml.cs">
+      <DependentUpon>box3.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games3\box3 - Копировать %288%29.xaml.cs">
+      <DependentUpon>box3.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games3\box3 - Копировать %289%29.xaml.cs">
+      <DependentUpon>box3.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games3\box3 - Копировать.xaml.cs">
+      <DependentUpon>box3.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games3\box3.xaml.cs">
+      <DependentUpon>box3.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="games\games4\box4 - Копировать %2810%29.xaml.cs">
+      <DependentUpon>box4.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games4\box4 - Копировать %2811%29.xaml.cs">
+      <DependentUpon>box4.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games4\box4 - Копировать %2812%29.xaml.cs">
+      <DependentUpon>box4.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games4\box4 - Копировать %2813%29.xaml.cs">
+      <DependentUpon>box4.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games4\box4 - Копировать %2814%29.xaml.cs">
+      <DependentUpon>box4.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games4\box4 - Копировать %282%29.xaml.cs">
+      <DependentUpon>box4.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games4\box4 - Копировать %283%29.xaml.cs">
+      <DependentUpon>box4.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games4\box4 - Копировать %284%29.xaml.cs">
+      <DependentUpon>box4.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games4\box4 - Копировать %285%29.xaml.cs">
+      <DependentUpon>box4.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games4\box4 - Копировать %286%29.xaml.cs">
+      <DependentUpon>box4.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games4\box4 - Копировать %287%29.xaml.cs">
+      <DependentUpon>box4.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games4\box4 - Копировать %288%29.xaml.cs">
+      <DependentUpon>box4.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games4\box4 - Копировать %289%29.xaml.cs">
+      <DependentUpon>box4.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games4\box4 - Копировать.xaml.cs">
+      <DependentUpon>box4.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games4\box4.xaml.cs">
+      <DependentUpon>box4.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="games\games5\box5 - Копировать %2810%29.xaml.cs">
+      <DependentUpon>box5.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games5\box5 - Копировать %2811%29.xaml.cs">
+      <DependentUpon>box5.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games5\box5 - Копировать %2812%29.xaml.cs">
+      <DependentUpon>box5.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games5\box5 - Копировать %2813%29.xaml.cs">
+      <DependentUpon>box5.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games5\box5 - Копировать %2814%29.xaml.cs">
+      <DependentUpon>box5.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games5\box5 - Копировать %2815%29.xaml.cs">
+      <DependentUpon>box5.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games5\box5 - Копировать %2816%29.xaml.cs">
+      <DependentUpon>box5.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games5\box5 - Копировать %282%29.xaml.cs">
+      <DependentUpon>box5.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games5\box5 - Копировать %283%29.xaml.cs">
+      <DependentUpon>box5.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games5\box5 - Копировать %284%29.xaml.cs">
+      <DependentUpon>box5.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games5\box5 - Копировать %285%29.xaml.cs">
+      <DependentUpon>box5.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games5\box5 - Копировать %286%29.xaml.cs">
+      <DependentUpon>box5.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games5\box5 - Копировать %287%29.xaml.cs">
+      <DependentUpon>box5.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games5\box5 - Копировать %288%29.xaml.cs">
+      <DependentUpon>box5.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games5\box5 - Копировать %289%29.xaml.cs">
+      <DependentUpon>box5.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games5\box5 - Копировать.xaml.cs">
+      <DependentUpon>box5.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games5\box5.xaml.cs">
+      <DependentUpon>box5.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="games\games6\box6 - Копировать %2810%29.xaml.cs">
+      <DependentUpon>box6.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games6\box6 - Копировать %2811%29.xaml.cs">
+      <DependentUpon>box6.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games6\box6 - Копировать %2812%29.xaml.cs">
+      <DependentUpon>box6.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games6\box6 - Копировать %282%29.xaml.cs">
+      <DependentUpon>box6.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games6\box6 - Копировать %283%29.xaml.cs">
+      <DependentUpon>box6.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games6\box6 - Копировать %284%29.xaml.cs">
+      <DependentUpon>box6.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games6\box6 - Копировать %285%29.xaml.cs">
+      <DependentUpon>box6.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games6\box6 - Копировать %286%29.xaml.cs">
+      <DependentUpon>box6.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games6\box6 - Копировать %287%29.xaml.cs">
+      <DependentUpon>box6.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games6\box6 - Копировать %288%29.xaml.cs">
+      <DependentUpon>box6.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games6\box6 - Копировать %289%29.xaml.cs">
+      <DependentUpon>box6.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games6\box6 - Копировать.xaml.cs">
+      <DependentUpon>box6.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="games\games6\box6.xaml.cs">
+      <DependentUpon>box6.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks0-1\game0122.xaml.cs">
+      <DependentUpon>game0122.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks0-1\game0121.xaml.cs">
+      <DependentUpon>game0121.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks0-1\game0120.xaml.cs">
+      <DependentUpon>game0120.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks0-1\game0119.xaml.cs">
+      <DependentUpon>game0119.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks0-1\game0118.xaml.cs">
+      <DependentUpon>game0118.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks0-1\game0117.xaml.cs">
+      <DependentUpon>game0117.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks0-1\game0115.xaml.cs">
+      <DependentUpon>game0115.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks0-1\game0114.xaml.cs">
+      <DependentUpon>game0114.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks0-1\game0113.xaml.cs">
+      <DependentUpon>game0113.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks0-1\game0112.xaml.cs">
+      <DependentUpon>game0112.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks0-1\game0111.xaml.cs">
+      <DependentUpon>game0111.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks0-1\game0110.xaml.cs">
+      <DependentUpon>game0110.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks0-1\game019.xaml.cs">
+      <DependentUpon>game019.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks0-1\game018.xaml.cs">
+      <DependentUpon>game018.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks0-1\game701.xaml.cs">
+      <DependentUpon>game701.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks0-1\game601.xaml.cs">
+      <DependentUpon>game601.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks0-1\game501.xaml.cs">
+      <DependentUpon>game501.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks0-1\game401.xaml.cs">
+      <DependentUpon>game401.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks0-1\game301.xaml.cs">
+      <DependentUpon>game301.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks0-1\game201.xaml.cs">
+      <DependentUpon>game201.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks0-1\game101.xaml.cs">
+      <DependentUpon>game101.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks0-1\game0116.xaml.cs">
+      <DependentUpon>game0116.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks2\game218.xaml.cs">
+      <DependentUpon>game218.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks2\game217.xaml.cs">
+      <DependentUpon>game217.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks2\game216.xaml.cs">
+      <DependentUpon>game216.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks2\game215.xaml.cs">
+      <DependentUpon>game215.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks2\game214.xaml.cs">
+      <DependentUpon>game214.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks2\game213.xaml.cs">
+      <DependentUpon>game213.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks2\game212.xaml.cs">
+      <DependentUpon>game212.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks2\game211.xaml.cs">
+      <DependentUpon>game211.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks2\game210.xaml.cs">
+      <DependentUpon>game210.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks2\game29.xaml.cs">
+      <DependentUpon>game29.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks2\game28.xaml.cs">
+      <DependentUpon>game28.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks2\game27.xaml.cs">
+      <DependentUpon>game27.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks2\game26.xaml.cs">
+      <DependentUpon>game26.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks2\game25.xaml.cs">
+      <DependentUpon>game25.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks2\game24.xaml.cs">
+      <DependentUpon>game24.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks2\game23.xaml.cs">
+      <DependentUpon>game23.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks2\game22.xaml.cs">
+      <DependentUpon>game22.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks2\game21.xaml.cs">
+      <DependentUpon>game21.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks3\game319.xaml.cs">
+      <DependentUpon>game319.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks3\game318.xaml.cs">
+      <DependentUpon>game318.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks3\game317.xaml.cs">
+      <DependentUpon>game317.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks3\game316.xaml.cs">
+      <DependentUpon>game316.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks3\game315.xaml.cs">
+      <DependentUpon>game315.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks3\game314.xaml.cs">
+      <DependentUpon>game314.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks3\game313.xaml.cs">
+      <DependentUpon>game313.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks3\game312.xaml.cs">
+      <DependentUpon>game312.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks3\game311.xaml.cs">
+      <DependentUpon>game311.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks3\game310.xaml.cs">
+      <DependentUpon>game310.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks3\game39.xaml.cs">
+      <DependentUpon>game39.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks3\game38.xaml.cs">
+      <DependentUpon>game38.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks3\game37.xaml.cs">
+      <DependentUpon>game37.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks3\game36.xaml.cs">
+      <DependentUpon>game36.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks3\game35.xaml.cs">
+      <DependentUpon>game35.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks3\game34.xaml.cs">
+      <DependentUpon>game34.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks3\game33.xaml.cs">
+      <DependentUpon>game33.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks3\game32.xaml.cs">
+      <DependentUpon>game32.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks3\game31.xaml.cs">
+      <DependentUpon>game31.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks4\game412.xaml.cs">
+      <DependentUpon>game412.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks4\game411.xaml.cs">
+      <DependentUpon>game411.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks4\game410.xaml.cs">
+      <DependentUpon>game410.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks4\game49.xaml.cs">
+      <DependentUpon>game49.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks4\game48.xaml.cs">
+      <DependentUpon>game48.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks4\game47.xaml.cs">
+      <DependentUpon>game47.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks4\game46.xaml.cs">
+      <DependentUpon>game46.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks4\game45.xaml.cs">
+      <DependentUpon>game45.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks4\game44.xaml.cs">
+      <DependentUpon>game44.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks4\game43.xaml.cs">
+      <DependentUpon>game43.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks4\game42.xaml.cs">
+      <DependentUpon>game42.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks4\game41.xaml.cs">
+      <DependentUpon>game41.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks5\game511.xaml.cs">
+      <DependentUpon>game511.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks5\game510.xaml.cs">
+      <DependentUpon>game510.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks5\game59.xaml.cs">
+      <DependentUpon>game59.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks5\game58.xaml.cs">
+      <DependentUpon>game58.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks5\game57.xaml.cs">
+      <DependentUpon>game57.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks5\game56.xaml.cs">
+      <DependentUpon>game56.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks5\game55.xaml.cs">
+      <DependentUpon>game55.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks5\game54.xaml.cs">
+      <DependentUpon>game54.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks5\game53.xaml.cs">
+      <DependentUpon>game53.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks5\game52.xaml.cs">
+      <DependentUpon>game52.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks5\game51.xaml.cs">
+      <DependentUpon>game51.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks6\game612.xaml.cs">
+      <DependentUpon>game612.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks6\game611.xaml.cs">
+      <DependentUpon>game611.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks6\game610.xaml.cs">
+      <DependentUpon>game610.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks6\game69.xaml.cs">
+      <DependentUpon>game69.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks6\game68.xaml.cs">
+      <DependentUpon>game68.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks6\game67.xaml.cs">
+      <DependentUpon>game67.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks6\game66.xaml.cs">
+      <DependentUpon>game66.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks6\game65.xaml.cs">
+      <DependentUpon>game65.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks6\game64.xaml.cs">
+      <DependentUpon>game64.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks6\game63.xaml.cs">
+      <DependentUpon>game63.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks6\game62.xaml.cs">
+      <DependentUpon>game62.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="hacks6\game61.xaml.cs">
+      <DependentUpon>game61.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Hacks6.xaml.cs">
+      <DependentUpon>Hacks6.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Hacks5.xaml.cs">
+      <DependentUpon>Hacks5.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Hacks4.xaml.cs">
+      <DependentUpon>Hacks4.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Hacks3.xaml.cs">
+      <DependentUpon>Hacks3.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Hacks2.xaml.cs">
+      <DependentUpon>Hacks2.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Hacks1.xaml.cs">
+      <DependentUpon>Hacks1.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\RegistrPage.xaml.cs">
+      <DependentUpon>RegistrPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Welcome.xaml.cs">
+      <DependentUpon>Welcome.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\ProfilePage.xaml.cs">
+      <DependentUpon>ProfilePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Edit.xaml.cs">
+      <DependentUpon>Edit.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Content.xaml.cs">
+      <DependentUpon>Content.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\ContentPage1.xaml.cs">
+      <DependentUpon>ContentPage1.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\CatalogPage.xaml.cs">
+      <DependentUpon>CatalogPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\BasketPage.xaml.cs">
+      <DependentUpon>BasketPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Contacts.xaml.cs">
+      <DependentUpon>Contacts.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\more6.xaml.cs">
+      <DependentUpon>more6.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\more5.xaml.cs">
+      <DependentUpon>more5.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\more4.xaml.cs">
+      <DependentUpon>more4.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\more3.xaml.cs">
+      <DependentUpon>more3.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\more2.xaml.cs">
+      <DependentUpon>more2.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\more1.xaml.cs">
+      <DependentUpon>more1.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Hacks.xaml.cs">
+      <DependentUpon>Hacks.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="AddChild.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="AddVideoPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="ChildList.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="content\tasks.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="EditChild.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="files\boxgames1.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="games\games1\box11.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="hacks0-1\game0116.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="UserList.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\BasketPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

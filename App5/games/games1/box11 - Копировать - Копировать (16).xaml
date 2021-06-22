@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box128"
+             BackgroundColor="#e5e5e5"
+             Title="Погремушка">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <!--имя-->
+                        <Label Text="Тактильная книга" 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                        <!--как-->
+                        <Label Text="С 5-6 месяцев ребенок начинает активно пользоваться руками - ему нравится трогать различные предметы, трясти их, пробовать на вкус. А это значит, пришло время знакомства малыша с книжками-игрушками, помогающими развивать у него тактильную память и мелкую моторику, что в свою очередь стимулирует развитие речи.Во время прочтения книги, возьми ручку малыша, дай ему потрогать и почувствовать, какой мягкий и приятный на ощупь мех у маленьких зверят! Называй зверей, которых трогает малыш, воспроизводи звуки, которые эти звери издают. Ребенок будет ощупывать такую книжку, изучая с помощью пальчиков материал, из которого она сделана, пробовать ее на вкус и рассматривать картинки. Так у малыша появляется первый опыт общения с книгой"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

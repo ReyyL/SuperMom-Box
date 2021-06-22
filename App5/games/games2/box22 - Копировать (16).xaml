@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box224"
+             BackgroundColor="#e5e5e5"
+             Title="Пазлы">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <Label Text="Пазлы" 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="Пазлы отлично развивают наглядно-образное мышление. Их роль в развитии различных навыков и умений огромна: развитие мелкой моторики, знакомство с понятиями «часть»/ «целое», развитие логики, пространственного мышления, знакомство с окружающим миром по собранным картинкам и многое другое."
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <!--как-->
+                        <Label Text="Чем младше ребенок, тем крупнее и ярче должно быть изображение. Желательно собирать пазлы, на которых нарисованы знакомые ребенку вещи, предметы и персонажи. Начать можно с самого простого варианта игры. Выбрать 2 детали одной картинки. Когда картинка будет собрана, не забудь похвалить малыша - так повышается его самооценка и уверенность - и поговори с ним о том, что изображено на картинке - так развивается его речь. Это может быть, например, так: «Молодец, что у тебя получилось?» - «Это мишка!».
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

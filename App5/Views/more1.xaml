@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App5.Views.more1"
+             Title="Box-выбор"
+             BackgroundColor="White">
+
+    <ContentPage.Content>
+        <Grid>
+            <Grid.GestureRecognizers>
+                <PanGestureRecognizer PanUpdated="OnPanUpdated" />
+            </Grid.GestureRecognizers>
+            <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <ScrollView Grid.ColumnSpan="2">
+            <StackLayout HorizontalOptions="Center">
+                <Image Source="morebox.png" Aspect="AspectFill" Margin="0,0,0,0"/>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <StackLayout Orientation="Vertical" Grid.Column="0">
+                        <Label Text="SuperMom Box "
+                               TextColor="Black"
+                               FontSize="30"
+                               FontAttributes="Bold"
+                               Margin="20,10,0,0"/>
+                        <Label Text="для детей 0-1 лет"
+                               TextColor="Black"
+                               FontSize="30"
+                               FontAttributes="Bold"
+                               Margin="20,-10,0,0"/>
+                    </StackLayout>
+                    <StackLayout HorizontalOptions="End" Grid.Column="2">
+                        <Label Text="1P" 
+                                   HorizontalOptions="End"
+                                   VerticalOptions="Start"
+                                   TextColor="Black"
+                                   FontSize="30"
+                                   Margin="0,20,30,0"/>
+                    </StackLayout>
+                </Grid>
+                <Label Text="Описание бокса:"
+                   FontAttributes="None"
+                   TextColor="Black" 
+                   Margin="20,20,0,0"
+                   FontSize="20"
+                   HorizontalOptions="Start"/>
+                <Label Text="Яркий удобный прочный бокс для хранения игрушек, Брошюра с описанием игрушек, лайфхаками для мам и описанием игр для интересного развития малыша, Набор наклеек SuperMom Box для декорирования, Погремушки Браслет и носочек, Мягкая пирамидка, Набор игрушек резиновых, Безопасное зеркало, Дудка, Мяч, Набор музыкальный, Книга музыкально - тактильная, Игра Головоломка, Конструктор деревянный, Игра Вкладыши деревянная, Карточки развивающие, Сортер, Набор посуды" 
+                   FontAttributes="None"
+                   TextColor="Gray" 
+                   Margin="20,10,30,100"
+                   FontSize="16"
+                   HorizontalOptions="Fill"/>
+                </StackLayout>
+            </ScrollView>
+            <!--<Button ImageSource="addtobasketnew.png"
+                    Grid.Row="1"
+                    Clicked="AddButton_Click"
+                    Grid.ColumnSpan="2"
+                    BackgroundColor="Transparent" 
+                    Margin="0,-29,0,-10"
+                        />-->
+            <Frame Grid.Row="1" 
+                   Grid.ColumnSpan="2"
+                   BorderColor="Transparent"
+                   BackgroundColor="Transparent" 
+                    Margin="0,-80,0,-10">
+                <Image Source="addbasketnew.png" 
+                       BackgroundColor="Transparent"
+                       Margin="0,30,0,0"/>
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="AddButton_Click"/>
+                </Frame.GestureRecognizers>
+            </Frame>
+            
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

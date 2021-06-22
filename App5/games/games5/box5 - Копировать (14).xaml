@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box513"
+             BackgroundColor="#e5e5e5"
+             Title="Бинокль">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <Label Text="Бинокль" 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="   Бинокль – это чудо-приспособление, предназначенное для увеличения изображения. Для детей это не просто игрушка, а путь в мир фантазий и приключений. С биноклем можно придумать множество сюжетов для игр.
+&#10;  Кроме того, что активности с этим прибором полезны для развития внимания и воображения, бинокль также развивает зрение и концентрацию внимания.
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <!--как-->
+                        <Label Text="   Расскажи малышу, для чего нужно это приспособление, в каких профессиях оно используется: моряками, чтоб вовремя заметить рифы; исследователями, чтобы наблюдать за животными издалека; спасателями, чтобы оглядывать окрестности и т.д.
+&#10;   Предложи ребенку рассмотреть через бинокль окружающие его предметы.
+&#10;   Придумайте и проиграйте сюжетно – ролевую игру с применением бинокля. Пример: Спасатель производит поисковую операцию, выручая попавшую в беду игрушку.
+&#10;   Предлагай ребенку выбирать «положительную» установку – помочь, спасти, найти и т.д.
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box219"
+             BackgroundColor="#e5e5e5"
+             Title="Пальчиковые краски">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <!--имя-->
+                        <Label Text="Пальчиковые краски" 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="Рисование, лепка чаще всего умиротворяют и расслабляют малыша. Такие занятия хорошо развивают мелкую моторику, что способствует развитию речи. Центр, отвечающий за движения, расположен в мозге рядом с центром речи, и когда начинает работать первый, он заставляет трудиться и второй. Развивается тактильная чувствительность. Это новые ощущения при макании пальчика в краску, при ведении пальчиком по различным поверхностям для рисования. Развивается ловкость пальцев и кистей рук. 
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <!--как-->
+                        <Label Text="Рисуют такими красками на бумаге, причем рисовать можно как пальчиками и ладошками, так и губками, и кисточками. Если рисуете кисточкой, то вкладывай ее в руку ребенка всегда правильно. Вместо лишних замечаний аккуратно поправь пальчики ребенка. Он получает результат своего труда, которым страшно гордится! И этот результат достоин, чтобы его все видели и тоже гордились. Выдели место, где вы будете размещать работы ребенка: стена или дверцы шкафа.  В этом возрасте ребенок уже способен на долю самостоятельности – обязательно предоставляй ее ребенку.
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

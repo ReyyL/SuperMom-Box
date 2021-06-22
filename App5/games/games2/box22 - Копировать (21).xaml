@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box218"
+             BackgroundColor="#e5e5e5"
+             Title="Конструктор Лего">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <Label Text="Конструктор Лего" 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="Первые наборы Lego  — прекрасная модель для тренировки начальных навыков конструирования, которую малыши смогут легко собрать. Подобный конструктор прекрасно развивает структурно-логическое мышление, необходимое для построения объёмных конструкций и понимания приложенной к конструктору схемы. Собирание из частей целого требует сложной мыслительной деятельности. Чтобы получилось логически правильно законченное произведение, нужно хорошенько подумать. Цвета, в которые окрашены детали, специально подобраны с учётом того, как дети воспринимают мир. Манипуляции с конструктором полезны для ребенка сами по себе, а если его увлечь сюжетом, то он может играть с ним некоторое время самостоятельно.
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <!--как-->
+                        <Label Text="Постройте ферму, рассказывая, кто там живет, что ест, кто за ним ухаживает. По возможности посетите зооферму или мини-зоопарк, в первую очередь рассмотрите тех животных, какие у вас есть в игрушечном виде, найдите аналогичных животных в книгах. Проговорите, как «разговаривает» каждое животное, какого оно цвета.
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

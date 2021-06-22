@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App5.Views.game319"
+             Title="Разноцветные льдинки"
+             BackgroundColor="#e5e5e5">
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame  BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <Label Text="Разноцветные льдинки"
+                       TextColor="Black"
+                       FontSize="25"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"/>
+                        <Label Text="Рисование льдом- невероятно увлекательное занятие. Для него понадобятся: форма для льда, пищевые красители или акварель (гуашь), вода, зубочистки (не обязательно) и плотная бумага
+&#10;   Налей воду в форму, добавь в разные ячейки несколько капель красителей и поставь форму в морозильную камеру. Если не хочешь, чтобы ребенок при рисовании испачкал руки, заморозь лед вместе с зубочистками. Когда лед будет готов — возьми плотную белую бумагу и садитесь рисовать. Лед начнет таять и оставлять следы, и у вас получится ледовая картина."
+                           TextColor="Black"
+                           FontSize="20"
+                           HorizontalOptions="FillAndExpand"/>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

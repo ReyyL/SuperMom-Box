@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box311"
+             BackgroundColor="#e5e5e5"
+             Title="Настольная игра «Большие и маленькие»">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <Label Text="Настольная игра «Большие и маленькие»" 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="Еще одна настольная игра с карточками, которая познакомит детей с внешним видом животных, их детёнышами, расскажет, чем они питаются и где живут.
+&#10;   Эта игра поможет ребенку узнать много интересного, расширить кругозор и развить речевые навыки. 
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <!--как-->
+                        <Label Text="Как обычно, начинаем с исследования картинок, рассматриваем, что на них изображено, правильно называем животных, их детенышей и их корм.
+&#10;   Затем группируем картинки – подбираем родителю его детеныша и то, чем они любят питаться. Нужно помнить о возможностях ребенка и постепенном увеличении карточек. У малыша хватает усидчивости играть в настольную игру в течение 5-10 минут.
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

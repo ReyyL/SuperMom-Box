@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box27"
+             BackgroundColor="#e5e5e5"
+             Title="Книга с яркими понятными картинками">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <Label Text="Книга с яркими понятными картинками" 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="Яркие фотографии и запоминающиеся образы помогут ребенку без труда запомнить новую информацию, а короткие описывающие стихотворения внесут свою лепту в расширение словарного запаса малыша. Картонные страницы книги позволят малышу освоить важный навык перелистывания страниц.
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <Label Text="Как читать?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <!--как-->
+                        <Label Text="Конечно же, с выражением, показывай предметы на картинках по ходу стиха. Показывай новые для ребенка слова и за пределами книги: в одежде, среди предметов интерьера. При последующих прочтениях уже можно просить самого ребенка показывать предметы и цвета, встречающиеся в книге. 
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

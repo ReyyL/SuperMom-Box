@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box41"
+             BackgroundColor="#e5e5e5"
+             Title="Пирамидка Геометрическая">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <!--имя-->
+                        <Label Text="Пирамидка Геометрическая" 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="В арсенале малыша появилась еще одна пирамидка. Эта яркая игрушка с элементами разной формы и развлечет малыша, и заставить подумать. Занятия с пирамидками направлены на развитие мелкой моторики, а также стимулируют логическое мышление ребенка. А если подключить воображение, детали можно использовать в совершенно различных активностях.
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <!--как-->
+                        <Label Text="Собирайте с малышом пирамидку, называя формы и цвета. После того, как малыш начинает легко в них ориентироваться, приступайте к сооружению башенок по шаблону. Начать можно вместе, но постепенно доверить ребенку выполнять это задание самостоятельно.
+&#10;   Нанизывайте детали на толстые шнурки, и у вас получатся замечательные бусы для выдуманного персонажа! Придумайте собственный рисунок для них или закрепите классификацию по форме и цвету, сделав одноцветные бусы или бусы с элементами одной формы.
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

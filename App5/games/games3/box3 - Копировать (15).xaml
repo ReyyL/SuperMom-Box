@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box315"
+             BackgroundColor="#e5e5e5"
+             Title="Маракасы">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <Label Text="Маракасы" 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="Музыкальная игрушка, которая поможет ребенку развить чувство ритма, музыкальный слух и звуковосприятие. Маракасы - парный инструмент, поэтому в наборе имеется сразу два ярких экземпляра. Игра на музыкальных инструментах помогает детям раскрепоститься и проявить свои таланты. Маракасы очень удобно ложатся в маленькую руку ребенка и по своим шумовым признакам напоминают очень знакомую погремушку.
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <!--как-->
+                        <Label Text="Маракасами можно подыгрывать в такт веселой музыке или придумать свою. Если у вас приобретены Супербоксы за ранние периоды, то вы вполне можете собрать оркестр! Приглашайте родственников, друзей и устраивайте шумную вечеринку!
+&#10;   Спойте песенку на произвольную мелодию:
+&#10;   Ах, какие выкрутасы
+&#10;   Могут делать маракасы!
+&#10;   Я бы ими тряс и тряс, 
+&#10;   Тряс и тряс, тряс и тряс!
+
+&#10;   Их приятный шум сыпучий
+&#10;   На любой годится случай –
+&#10;   И для пенья, и для пляса
+&#10;   Он подходит в самый раз нам.
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

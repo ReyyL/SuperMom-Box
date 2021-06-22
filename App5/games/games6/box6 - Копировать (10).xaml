@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box613"
+             BackgroundColor="#e5e5e5"
+             Title="Набор фокусов">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <Label Text="Набор фокусов" 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="   Магическая коробка, с помощью которой твой ребенок окунется в мир волшебства! Содержимое будет исчезать и появляться по мановению его руки. Дети очень любят смотреть фокусы, любят все таинственное и загадочное. А как же им понравится творить магию самим! 
+&#10;   В состав набора входят предметы для первых несложных фокусов.  Внимательно прочитай инструкцию и своими словами объясни ребенку, как это работает. Покажи один из фокусов и затем дай ему потренироваться, наблюдая за процессом.
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <!--как-->
+                        <Label Text="   Отрепетируйте несколько номеров совместно с ребенком, чередуйте обязанности волшебника и его ассистента.
+&#10;   Продумайте концертную программу, напишите вступительные слова и описание к каждому фокусу. Возможно, в представлении будут не только магические, но и другие номера – стихи, песни, танцы.
+&#10;   Пригласи маленьких друзей малыша или членов семьи, покажите им представление. Такой концерт будет интересен даже взрослым, а малыш с вашей помощью и поддержкой сможет почувствовать себя настоящим волшебником!
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

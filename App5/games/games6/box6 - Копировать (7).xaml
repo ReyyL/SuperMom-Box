@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box65"
+             BackgroundColor="#e5e5e5"
+             Title="Игра-пазл">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <Label Text="Игра-пазл" 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="   Игра, направленная на развитие внимательности, сообразительности и скорости действий. Данный вид головоломки представляет собой пазл, каждый элемент которого может вращаться на 360 градусов. Это невероятно занимательно и интересно! В данной игре очень важны концентрация внимания и зрительно-моторная координация. 
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <!--как-->
+                        <Label Text="   Покажи игру ребенку, объясни задачу и принцип действия. После освоения головоломки ребенком можно добавить соревновательный момент и собирать пазл на скорость. 
+&#10;   Сначала пусть соберет пазл малыш, затем попробуй собрать его ты. Засекайте время.
+&#10;   Игра совсем небольшая, поэтому ее спокойно можно брать с собой в гости, в поликлинику, в дорогу и т.д.
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

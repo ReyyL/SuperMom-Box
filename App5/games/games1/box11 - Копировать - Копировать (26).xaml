@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box119"
+             BackgroundColor="#e5e5e5"
+             Title="Погремушка">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <!--имя-->
+                        <Label Text="Пирамидка" 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="Пирамидка — классическая развивающая игрушка, проверенная временем. Эта игрушка полезна тем, что она будет всегда интересна малышу и не важно шесть месяцев ему или годик. При выборе пирамидки важно учесть не только количество колец (оптимально - 3-4 штуки). Дырочка кольца должна быть крупнее, чем диаметр стержня, а сами кольца должны быть основных цветов (желтый, красный, зеленый, синий)."
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                        <!--как-->
+                        <Label Text="Первое чему необходимо научить малыша – снимать и надевать колечки на стержень. Пирамидку показывают ребенку в разобранном виде, дают отдельно колечки, обследуют их, обнаруживают в них отверстие, а потом дают палочку на которую надевают кольцо. Взрослый держит палочку и помогает ребенку, направляя его ручки. Не отчаивайся, если у крохи не получится с первого раза, позже с помощью мамы он легко научится это делать."
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

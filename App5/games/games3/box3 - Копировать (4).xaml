@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box38"
+             BackgroundColor="#e5e5e5"
+             Title="Набор «Животные»">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <!--имя-->
+                        <Label Text="Набор «Животные»" 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="Замечательный набор для изучения мира природы и ролевых игр. Фигурки животных выглядят совсем как настоящие. Если есть возможность, посетите зоопарк и, в первую очередь, рассмотрите тех животных, которые теперь есть у малыша дома в уменьшенном виде.
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <!--как-->
+                        <Label Text="Постройте зоопарк из кубиков и кирпичиков, заселите туда животных, рассказывая, кто там живет, что ест, кто за ним ухаживает. Вспомните тех, что вы видели в настоящем зоопарке!
+&#10;   В игре нет границ, здесь все зависит от вашей фантазии! Ваши животные могут дружить и воевать, строить и путешествовать, быть родителями или детенышами. Наводящими вопросами и подсказками веди ребенка в этот увлекательный мир игры!
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

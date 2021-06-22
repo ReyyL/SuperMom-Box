@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box413"
+             BackgroundColor="#e5e5e5"
+             Title="Музыкальный набор">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <Label Text="Музыкальный набор" 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="Новые инструменты в оркестре малыша! Они легки в использовании, и ребенку не придется усердствовать, чтобы заставить их звучать.
+&#10;   Игра на этих музыкальных предметах способствует развитию координации движений, чувства ритма, музыкального слуха. Воспроизведение различных шумовых эффектов помогает развивать воображение ребенка. 
+ "
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <!--как-->
+                        <Label Text="Расскажи малышу историю этих музыкальных инструментов, о том, что они являются народными, и на них играли еще наши бабушки и дедушки.
+&#10;   Наиграй ребенку ритмический рисунок и попроси ребенка его повторить на одном из инструментов.
+&#10;   Подключите членов семьи – пусть каждый выберет себе инструмент по душе и попробуйте вместе сыграть любимую песенку. Совместные занятия здорово сближают!
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box225"
+             BackgroundColor="#e5e5e5"
+             Title="Книга «Первые сказки»">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <Label Text="Книга «Первые сказки»" 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="С помощью красочного издания можно развивать кроху, знакомить его с окружающим миром, природой, изучать фольклор. Таким способом малыш расширяет не только свой кругозор, но и словарный запас, память, мышление, воображение."
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <!--как-->
+                        <Label Text="В книге должны быть качественные рисунки. Желательно, чтобы в них были изображены реальные существа, чтоб ребенок не задумывался, кто перед ним. Не менее важно, чтобы на одной странице не было слишком много текста, чтобы описанное на странице соответствовало изображенному. При чтении знакомых сказок делай паузу, для того, чтобы ребенок сам сказал нужное слово. Задавай простые вопросы, это способствует развитию речи и памяти."
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

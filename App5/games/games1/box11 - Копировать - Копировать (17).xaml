@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box127"
+             BackgroundColor="#e5e5e5"
+             Title="Музыкальные книги">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <!--имя-->
+                        <Label Text="Музыкальные книги" 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                        <!--как-->
+                        <Label Text="Музыкальные книги не только развлекают ребёнка. Они развивают мелкую моторику, воображение, слух и речь, учат соотносить действие и результат (нажал на кнопку – заиграла музыка). Кроме того, они знакомят ребёнка с огромным миром детской литературы, прививая любовь с самого раннего возраста.Книги для детей до года состоят из простых стихов и сказок.
+&#10;   Музыкальная книга - это своего рода игрушка, которая знакомит ребенка с настоящими книгами, с которыми он будет сталкиваться всю жизнь. Поэтому лучше начать это знакомство как можно раньше. Научималыша нажимать на кнопки – и скоро он начинает выполнять это действие самостоятельно, радуясь новым достижениям. Вместе с малышом рассмотрите картинки в книге, называй предметы, изображенные на ее страницах, показывай животных, имитируй звуки, которые они издают."
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box319"
+             BackgroundColor="#e5e5e5"
+             Title="Книга-игра">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <Label Text="Книга-игра" 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="Книга –верный друг малыша. Чем раньше ребенок полюбит книги и чтение, тем легче и интереснее ему будет учиться в школе. Первые книги должны быть особенно привлекательными, поэтому в этой книжке представлены красочные иллюстрации с крупными элементами, короткие и доступные тексты - все для того, чтобы твой кроха с удовольствием знакомился с интересным и новым. Развивай в малыше любознательность и внимание!
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <!--как-->
+                        <Label Text="Это увлекательная книга-игра, которая играет с малышом в прятки. Покажите, какие предметы надо отыскать в сюжете, и малыш будет увлеченно делать это самостоятельно. 
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

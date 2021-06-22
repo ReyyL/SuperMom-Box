@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box26"
+             BackgroundColor="#e5e5e5"
+             Title="Заводная игрушка напольная">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <Label Text="Заводная игрушка напольная" 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="Дети обожают животных и машинки, а когда это 2 в 1, так это в два раза лучше. С помощью маленькой заводной игрушки малыш будет познавать окружающий мир, в погоне за ней он будет стараться быстрее ползать и ходить, развивать координацию движений, учиться сосредотачивать внимание и искать ее, если она неожиданно пропала из поля зрения.
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <!--как-->
+                        <Label Text="Так же, как и предыдущем примере с игрушкой для ванны, сначала познакомь ребенка с новым другом, изучите части тела, сколько колес, какого они цвета и формы. Заведи игрушку и «удивись»: вот это да, она движется! Проследите, куда отправилась непоседа, постройте для нее тоннель из книги. Можно построить трассу из кубиков, кровать для игрушки, проиграть ритуал отхода ко сну.
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

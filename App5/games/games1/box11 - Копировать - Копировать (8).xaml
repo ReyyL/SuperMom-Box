@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box111"
+             BackgroundColor="#e5e5e5"
+             Title="Погремушка">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <Label Text="Резиновые зверята" 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="Чаще всего с резиновыми игрушками малыши играют во время купания, но играть резиновымиигрушками можно и просто во время бодрствованиямалыша.Главным приоритетом выбора такой игрушки является экологически чистый и качественный материал, ведь дети часто грызут и кусают резиновые игрушки, облегчая период прорезывания зубов."
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                        <!--как-->
+                        <Label Text="Играть с резиновыми игрушками малыш может вполне начинать уже с 3 месячного возраста, причем не только в ванной, многие резиновые игрушки как раз и предназначены для того, чтобы малыш грыз их в период, когда у него режутся зубки.
+&#10;   В ванной. Опусти игрушку под воду, покажи, как быстро и высоко она выпрыгивает над поверхностью.Наблюдая за манипуляциями взрослых, кроха будет развивать внимание.
+&#10;   Во время бодрствования, покажи ребенку животных, произнеси звуки, которые они издают, а затем позволь малышу самостоятельно изучить их."
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

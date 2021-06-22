@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.AddVideoPage"
+             BackgroundColor="#e5e5e5"
+             Title="Добавление видео">
+    <ContentPage.Content>
+        <StackLayout>
+        <Frame BackgroundColor="White" CornerRadius="5" Margin="20"> 
+        <StackLayout>
+            <Label Text="Добавление видео"              
+                HorizontalOptions="CenterAndExpand" 
+                   TextColor="Black"
+                   Margin="0,20,0,0"
+                   FontSize="20"/>
+            <Frame CornerRadius="10" BackgroundColor="White" Margin="30,30,30,0">
+            <Entry x:Name="text" Placeholder="Название" 
+                   BackgroundColor="#EFEFEF" 
+                   TextColor="Black" 
+                   PlaceholderColor="#9A9A9A"
+                   Margin="-20, -20, -20, -20"
+                   HeightRequest="50"></Entry>
+            </Frame>
+            <Frame CornerRadius="10"  Margin="30,20,30,30">
+                <Entry x:Name="source" Placeholder="URL Видео" 
+                   BackgroundColor="#EFEFEF" 
+                   TextColor="Black" 
+                   PlaceholderColor="#9A9A9A"
+                   Margin="-20, -20, -20, -20"
+                   HeightRequest="50"></Entry>
+            </Frame>
+            <Button Clicked="AddVideo" 
+                    ImageSource="confirm.png"
+                    Margin="0,-20,0,0"
+                    Scale="0.75"
+                    BackgroundColor="Transparent">
+            </Button>
+        </StackLayout>
+        </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

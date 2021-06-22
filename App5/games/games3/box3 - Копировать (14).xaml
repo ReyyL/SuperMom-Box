@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box316"
+             BackgroundColor="#e5e5e5"
+             Title="Театр из фетра">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <Label Text="Театр из фетра" 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="Теперь у малыша есть свой собственный красочный театр с такими приятными на ощупь куклами, декорациями и настоящей сценой. Разыгрывая спектакли, ребенок развивает воображение, память, мышление и внимание.Сюжетно-ролевая деятельность обогащает словарный запас ребенка и способствует развитию речи, формирует творческие способности и артистические умения.
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <!--как-->
+                        <Label Text="Это один из самых доступных и простых способов познакомить ребенка с театром, с помощью которого можно и воспитывать, и развивать. 
+&#10;   Разыгрывайте сценки, сюжеты, проблемные ситуации. Делайте своих героев смешными и милыми. Покажи малышу, как оживает сказочный персонаж стоит лишь надеть его на пальчик.
+&#10;   Куклы помогают ребенку развивать подвижность пальцев обеих рук, копировать и придумывать речь главных героев. В процессе надевания персонажей на пальчики задействуется мелкая моторика и активизируется сенсорная чувствительность.
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

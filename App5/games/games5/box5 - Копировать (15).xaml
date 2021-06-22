@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box512"
+             BackgroundColor="#e5e5e5"
+             Title="Обучающие карточки">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <Label Text="Обучающие карточки" 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="   Развивающие карточки знакомят детей с окружающим миром. Этот комплект посвящен морским животным, распространенным в нашей стране, а также обитающим в разной среде на всех континентах. Кроме изображения животных карточки содержат общие сведения о них и отличительные черты их поведения.
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <!--как-->
+                        <Label Text="   Показывай ребенку карточки и читай описания к тем или иным обитателям. Сопоставьте фотографии животных с фигурками из набора, найдите сходства.
+&#10;   Поиграй с ребенком в игру «Угадай-ка». Читай информацию об обитателе, затем покажи малышу его изображение. Возьми другую карточку и сделай то же самое. После поменяй местами описания и прочти еще раз. Попроси ребенка найти ошибку и соотнести информацию с правильным объектом.
+&#10;   Еще один вариант игры - «Вопрос – ответ». Показывай ребенку карточку с изображением морского обитателя и задавай вопрос о названии животного или каком-либо другом факте о нем. Дождись ответа ребенка. В случае, если он не ответил, помоги ему, назвав первые одну или две буквы.
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.CatalogPage"
+             Title="Каталог"
+             xmlns:local="clr-namespace:App5.ViewModels"  
+             xmlns:model="clr-namespace:App5.Models" 
+             x:Name="BrowseItemsPage"
+             BackgroundColor="#E5e5e5">
+
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout Orientation="Vertical">
+                
+                <StackLayout.GestureRecognizers>
+                    <PanGestureRecognizer PanUpdated="OnPanUpdated" />
+                </StackLayout.GestureRecognizers>
+                <Frame CornerRadius="5" BackgroundColor="White" Margin="10,30,10,10" >
+                    <StackLayout Orientation="Horizontal" Margin="0,0,0,0" >
+                        <Image Source="azero.png" Scale="0.65" Margin="-50,-50,-35,-50" />
+                <StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand" VerticalOptions="Center">
+                        <Label Text="SuperMom Box для детей 0-1 года"
+                               TextColor="Black"
+                               Margin="0,0,-15,0"
+                               FontSize="16"/>
+                            <Label Text="1P"
+                               TextColor="Black"
+                               Margin="0,0,0,0"
+                               FontSize="Medium"
+                               FontAttributes="Bold"/>
+                            <Frame BackgroundColor="#a2bd2c" Margin="-10,10,0,0" CornerRadius="5" HorizontalOptions="CenterAndExpand" WidthRequest="130">
+                               
+                                    <Label Text="Подробнее"
+                                       Margin="0,-8,0,-8"
+                                       HorizontalOptions="Center"
+                                       FontSize="13"
+                                       TextColor="White"/>
+                                    
+                                <Frame.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="zeroone"/>
+                                </Frame.GestureRecognizers>
+                            </Frame>
+                        </StackLayout>
+            </StackLayout>
+            </Frame>
+            <Frame CornerRadius="5" BackgroundColor="White" Margin="10,10,10,10" x:Name="frame">
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="aone.png"  Scale="0.65" Margin="-50,-50,-35,-50"/>
+                        <StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand">
+                            <Label Text="SuperMom Box для детей 1-2 лет"
+                                   TextColor="Black"
+                                   Margin="0,0,-10,0"
+                                   FontSize="16"/>
+                            <Label Text="2P"
+                                   TextColor="Black"
+                                   Margin="0,0,0,0"
+                                   FontSize="Medium"
+                                   FontAttributes="Bold"/>
+                            <Frame BackgroundColor="#a2bd2c" Margin="-10,10,0,0" CornerRadius="5" HorizontalOptions="CenterAndExpand" WidthRequest="130">
+                                
+                                <Label Text="Подробнее"
+                                       Margin="0,-8,0,-8"
+                                       HorizontalOptions="Center"
+                                       FontSize="13"
+                                       TextColor="White"/>
+                                    <Frame.GestureRecognizers>
+                                        <TapGestureRecognizer Tapped="onetwo"/>
+                                    </Frame.GestureRecognizers>
+                            </Frame>
+                        </StackLayout>
+                    </StackLayout>
+                </Frame>
+                
+                <Frame CornerRadius="5" BackgroundColor="White" Margin="10,10,10,10">
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="atwo.png" Scale="0.65" Margin="-50,-50,-35,-50"/>
+                        <StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand">
+                            <Label Text="SuperMom Box для детей 2-3 лет"
+                                   TextColor="Black"
+                                   Margin="0,0,-10,0"
+                                   FontSize="16"/>
+                            <Label Text="3P"
+                                   TextColor="Black"
+                                   Margin="0,0,20,0"
+                                   FontSize="Medium"
+                                   FontAttributes="Bold"/>
+                            <Frame BackgroundColor="#a2bd2c" Margin="-10,10,0,0" CornerRadius="5" HorizontalOptions="CenterAndExpand" WidthRequest="130">
+
+                                <Label Text="Подробнее"
+                                       Margin="0,-8,0,-8"
+                                       HorizontalOptions="Center"
+                                       FontSize="13"
+                                       TextColor="White"/>
+                                <Frame.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="twothree"/>
+                                </Frame.GestureRecognizers>
+                            </Frame>
+                        </StackLayout>
+                    </StackLayout>
+                </Frame>
+            <Frame CornerRadius="5" BackgroundColor="White" Margin="10,10,10,10">
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="athree.png" Scale="0.65" Margin="-50,-50,-35,-50"/>
+                        <StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand">
+                            <Label Text="SuperMom Box для детей 3-4 лет"
+                                   TextColor="Black"
+                                   Margin="0,0,-10,0"
+                                   FontSize="16"/>
+                            <Label Text="4P"
+                                   TextColor="Black"
+                                   Margin="0,0,20,0"
+                                   FontSize="Medium"
+                                   FontAttributes="Bold"/>
+                            <Frame BackgroundColor="#a2bd2c" Margin="-10,10,0,0" CornerRadius="5" HorizontalOptions="CenterAndExpand" WidthRequest="130">
+                                
+                                    <Label Text="Подробнее"
+                                       Margin="0,-8,0,-8"
+                                       HorizontalOptions="Center"
+                                       FontSize="13"
+                                       TextColor="White"/>
+                                    <Frame.GestureRecognizers>
+                                        <TapGestureRecognizer Tapped="threefour"/>
+                                    </Frame.GestureRecognizers>
+                            </Frame>
+                        </StackLayout>
+                    </StackLayout>
+            </Frame>
+                <Frame CornerRadius="5" BackgroundColor="White" Margin="10,10,10,10">
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="afour.png" Scale="0.65" Margin="-50,-50,-35,-50"/>
+                        <StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand">
+                            <Label Text="SuperMom Box для детей 4-5 лет"
+                               TextColor="Black"
+                               Margin="0,0,-10,0"
+                               FontSize="16"/>
+                            <Label Text="5P"
+                               TextColor="Black"
+                               Margin="0,0,20,0"
+                               FontSize="Medium"
+                               FontAttributes="Bold"/>
+                            <Frame BackgroundColor="#a2bd2c" Margin="-10,10,0,0" CornerRadius="5" HorizontalOptions="CenterAndExpand" WidthRequest="130">
+                                
+                                    <Label Text="Подробнее"
+                                       Margin="0,-8,0,-8"
+                                       HorizontalOptions="Center"
+                                       FontSize="13"
+                                       TextColor="White"/>
+                                    <Frame.GestureRecognizers>
+                                        <TapGestureRecognizer Tapped="fourfive"/>
+                                    </Frame.GestureRecognizers>
+                            </Frame>
+                        </StackLayout>
+                    </StackLayout>
+                </Frame>
+                <Frame CornerRadius="5" BackgroundColor="White" Margin="10,10,10,10">
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="afive.png" Scale="0.65" Margin="-50,-50,-35,-50"/>
+                        <StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand">
+                            <Label Text="SuperMom Box для детей 5-6 лет"
+                               TextColor="Black"
+                               Margin="0,0,-10,0"
+                               FontSize="16"/>
+                            <Label Text="6P"
+                               TextColor="Black"
+                               Margin="0,0,20,0"
+                               FontSize="Medium"
+                               FontAttributes="Bold"/>
+                            <Frame BackgroundColor="#a2bd2c" Margin="-10,10,0,0" CornerRadius="5" HorizontalOptions="CenterAndExpand" WidthRequest="130">
+                                
+                                    <Label Text="Подробнее"
+                                       Margin="0,-8,0,-8"
+                                       HorizontalOptions="Center"
+                                       FontSize="13"
+                                       TextColor="White"/>
+                                    <Frame.GestureRecognizers>
+                                        <TapGestureRecognizer Tapped="fivesix"/>
+                                    </Frame.GestureRecognizers>
+                            </Frame>
+                        </StackLayout>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App5.Views.game34"
+             Title="Настольные игры"
+             BackgroundColor="#e5e5e5">
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame  BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <Label Text="Настольные игры"
+                       TextColor="Black"
+                       FontSize="25"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"/>
+                        <Label Text="Если во время игр в карточки или мозаику малыш убегает, не хочет слушать объяснения или задания, не сдавайся. Возьми мягкую игрушку (любимого медвежонка или щенка) и начни с увлечением рассказывать задание ему. Говори, отвечай за персонажа, и твой непоседа незаметно тоже включится в игру.
+&#10;   Игру в пазлы удобно предложить ребенку перед завтраком или обедом. Пока ты делаешьприготовления перед едой, ребенок с удовольствием использует эти минуты, чтобы собрать или разобрать картинки.
+&#10;   Настольные игры  и книги с изображением животных можно объединить с набором зверят. Предложите, например, ребенку расставить каждого животного на картинку с его изображением: слона на картинку слона и т.п. Можно сравнить изображенного на картинке животного с его фигуркой – по цвету, по размеру, по окраске и т.д.
+&#10;   Для настольных игр привлекай, по возможности, разных членов семьи. Ведь ребенок учится, глядя как играете вы, а неподдельный интерес взрослых увлечет и ребенка."
+                           TextColor="Black"
+                           FontSize="20"
+                           HorizontalOptions="FillAndExpand"/>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.Content"
+             Title="Контент"
+             xmlns:local="clr-namespace:App5.ViewModels"  
+             xmlns:model="clr-namespace:App5.Models" 
+             x:Name="BrowseItemsPage"
+             BackgroundColor="#e5e5e5">
+
+    <ContentPage.Content>
+        <StackLayout Margin="0,40,0,0">
+            <StackLayout.GestureRecognizers>
+                <PanGestureRecognizer PanUpdated="OnPanUpdated" />
+            </StackLayout.GestureRecognizers>
+            <Button ImageSource="avideogames.png" Scale="0.52" Margin="-120,-30,-120,-60" Clicked="videoclick" BackgroundColor="Transparent"/>
+            <Button ImageSource="aweb.png" Clicked="webclick" Scale="0.52" Margin="-120,0,-120,-60" BackgroundColor="Transparent"/>
+            <Button ImageSource="atasks.png" Clicked="taskclick" Scale="0.52" Margin="-120,0,-120,0" BackgroundColor="Transparent"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

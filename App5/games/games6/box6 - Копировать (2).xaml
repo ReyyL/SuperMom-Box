@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box610"
+             BackgroundColor="#e5e5e5"
+             Title="Игра на ловкость">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <Label Text="Игра на ловкость" 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="    Давняя народная игра-забава, которая направлена на развитие координации движений ребенка, его ловкости и глазомера. К веревочке привязан деревянный мячик, который, подбросив, необходимо поймать одним из отверстий, размещенных на узкой дощечке. Сделать это не так-то просто! Эта игра доставит малышу море веселья и удовольствия!
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <!--как-->
+                        <Label Text="   В классической игре бильбоке (поймай мяч) правила просты: надо просто закинуть шарик в чашечку, чем больше раз, тем лучше. В этой вариации шариком нужно попасть в отверстия разного размера. Длину шнурка можно регулировать в зависимости от возраста ребенка.
+&#10;   Используй эту игру для конкурсов и развлечения детей на природе, на детской площадке.
+&#10;   Можно устроит семейные соревнования. Считайте попадания и обменивайтесь самодельными поощрительными жетонами, которые нужно заготовить заранее.
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

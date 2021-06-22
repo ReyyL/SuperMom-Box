@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box320"
+             BackgroundColor="#e5e5e5"
+             Title="Игра «Мемо»">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <Label Text="Игра «Мемо»" 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="Продолжаем знакомить малыша с настольными играми. Яркие карточки с изображением животных помогают в изучении окружающего мира, а сама игра с ними развивает память и сообразительность.
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <!--как-->
+                        <Label Text="Для начала рассмотрите все картинки вместе с ребенком. Для создания яркого образа и лучшего запоминания, придумай и расскажи сказку или историю о персонаже.
+&#10;   Если ребенок уже имеет опыт отгадывания картинок, то можно брать по 3-4 пары. Если вы только знакомитесь с этой игрой, начните с двух пар. Перед игрой все картинки выкладываем изображением вверх, пусть малыш назовет каждую картинку, показывая на неё пальчиком. Так рисунки «загружаются» в память. Затем переворачиваем карточки рубашкой вверх и начинаем игру. Поочередно открываем картинки, подыскивая парные.
+&#10;   Не жалей времени на подобные игры, но помни, что проводить их лучше в первой половине дня или после дневного сна и полдника. В это время память малыша наиболее активна.
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

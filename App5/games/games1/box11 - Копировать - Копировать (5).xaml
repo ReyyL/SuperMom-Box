@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box18"
+             BackgroundColor="#e5e5e5"
+             Title="Погремушка">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <Label Text="Пирамидка-мякиш" 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="Мякиши — это замечательные мягкие игрушки для самых маленьких, которые созданы для того, чтобы ребенок мог играть и правильно развиваться с самого своего рождения.Мякиши не должны быть большими, но должны иметь ряд сюрпризов для малыша: материалы различной фактуры, вшитые погремушки, лапки-узелки, которые можно развязывать и завязывать, пищалки и т.д"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                        <!--как-->
+                        <Label Text="Мягкая пирамидка состоит из разноцветных колечек с петельками и погремушки, имеет хрустящие и приятные на ощупь элементы. Ребенок будет охотно с ней играть, поскольку можно не только трясти погремушку, но и сжимать хрустящие элементы, изучать яркие колечки и собирать из них пирамидку. А разнообразные петельки созданы для того, чтобы хватать их и удерживать в маленьких детских пальчиках. Такая игрушка разработана специально для развития мелкой моторики рук, координации движений, тактильных ощущений и творческого мышления. "
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

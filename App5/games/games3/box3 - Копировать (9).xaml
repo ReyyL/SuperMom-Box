@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box33"
+             BackgroundColor="#e5e5e5"
+             Title="Юла">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <Label Text="Юла" 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="Юла – простая и забытая, на первый взгляд – это динамическая игрушка, которая приходит в движение от действий ребенка, чем приводит его в восторг. Эта игрушка еще из нашего детства, кроме игровой, имеет и другие полезные функции. Игра с юлой способствует концентрации внимания и сосредоточению, стимулирует ребенка к активным действиям, развивает координацию движения и ловкость.
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <!--как-->
+                        <Label Text="Покажи ребенку юлу и заведи её, она начнет кружиться и гудеть. «Посмотри, как кружится юла и гудит Уууууууу!» Когда юла остановилась и упала, скажи «Ба-бах! Юла упала!» Заведи юлу снова вместе с ребенком и гудите: «Уууууу!». 
+&#10;   Изобразите юлу вместе с малышом - покружитесь на месте и присядьте на пол, сопровождая теми же звуками: «Уууууу! Ба-бах!» Такие игры не только занимают и веселят малыша, но и тренируют длительный выдох, что очень полезно для постановки звуков. Кружение отлично развивает вестибулярный аппарат.
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

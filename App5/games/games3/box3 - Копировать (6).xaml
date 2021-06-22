@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box36"
+             BackgroundColor="#e5e5e5"
+             Title="Набор продуктов">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <Label Text="Набор продуктов" 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="Продуктовый набор для сюжетно-ролевой игры. Этот вид активности обогащает словарный запас ребенка и развивает воображение. Предметы, входящие в набор - это предметы из мира взрослых, манипулируя ими, малыш подражает вам.
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <!--как-->
+                        <Label Text="В этой игре нет определенных правил или методики. Ход развития событий придумывает сам ребенок, а ты лишь подыгрываешь ему. Тем не менее, в помощь ребенку всегда можно задать направление. Например, супер - игра для уставшей мамы – «Кафе» или «Кухня». Ты приходишь в кафе, в котором малыш будет рад тебя накормить! При этом ты можешь заказать блюдо, состоящее из определенного набора ингредиентов, или, наоборот, попросить ребенка рассказать, из чего он приготовил свой кулинарный шедевр.
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

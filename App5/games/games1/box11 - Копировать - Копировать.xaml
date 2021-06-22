@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box14"
+             BackgroundColor="#e5e5e5"
+             Title="Погремушка">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <Label Text="Браслет-погремушка"
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <Label Text="Браслет-погремушка – великолепное развлечение для любого малыша. Такие браслеты призваны стимулировать активность мышц и развивать у новорожденных хорошую координацию. Игрушка способствует развитию мелкой моторики рук, сенсорного и зрительного восприятия, хватательного рефлекса.
+&#10;   Браслеты изготавливаются из ткани и держатся за счет липучки, поэтому важно, чтобы погремушка не пережимала конечность."
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                        <Label Text="Поочередно надевай браслеты то на ручки, то на ножки ребёнка.Двигая руками и ногами перед глазами, малыш постепенно научится управлять ими, так чтобы они оставались в поле его зрения."
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

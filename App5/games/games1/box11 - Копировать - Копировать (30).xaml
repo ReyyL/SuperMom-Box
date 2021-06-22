@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box15"
+             BackgroundColor="#e5e5e5"
+             Title="Погремушка">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <Label Text="Мини-коврики для ванной"
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <Label Text="Мини-коврик - это способ сделать ванную комнату красивым и интересным местом для малыша.Яркие мини-коврики привлекают внимание ребенка, стимулируют развитие зрения в первые месяцы жизни.
+&#10;   Миниатюрные коврики наиболее удобны для детских игр во время купания. Изделие должно надежно закрепляться на одном месте, но в то же время легко перемещаться с места на место при необходимости."
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                        <Label Text="Прикрепи несколько ковриков по разным концам ванны, таким образом, малыш будет фокусировать свое внимание на ярких объектах, а соответственно, будет заинтересован в том, чтобы активно двигаться в воде. Ребенок будет, подплывать к изображениям, рассматривать их.
+&#10;   Кроме того, мини-коврики сделаны из легко пенного материала, поэтому можно просто положить их на поверхность воды, чтобы малыш следил за их перемещениями и пытался дотянуться."
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

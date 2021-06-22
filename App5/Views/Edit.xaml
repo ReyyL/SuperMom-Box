@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.Edit"
+             Title="Редактирование"
+             xmlns:local="clr-namespace:App5.ViewModels"  
+             xmlns:model="clr-namespace:App5.Models" 
+             xmlns:sys="clr-namespace:System;assembly=System.Runtime"
+             x:Name="BrowseItemsPage"
+             BackgroundColor="#e5e5e5">
+
+    <ContentPage.Content>
+        <Grid>
+            <Grid.GestureRecognizers>
+                <PanGestureRecognizer PanUpdated="OnPanUpdated" />
+            </Grid.GestureRecognizers>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <ScrollView Grid.ColumnSpan="2">
+            <StackLayout Margin="50,20,50,50">
+                <Frame CornerRadius="10" BackgroundColor="Black" Margin="0,30,0,30">
+                    <Entry x:Name="Surname" 
+                   Placeholder="Фамилия" 
+                   BackgroundColor="#EFEFEF" 
+                   TextColor="Black" 
+                   PlaceholderColor="#9A9A9A"
+                   Margin="-20,-20,-20,-20"
+                   HeightRequest="50"></Entry>
+                </Frame>
+                <Frame CornerRadius="10" BackgroundColor="Black" Margin="0,0,0,30">
+                    <Entry x:Name="Name"
+                   Placeholder="Имя" 
+                   BackgroundColor="#EFEFEF" 
+                   TextColor="Black" 
+                   PlaceholderColor="#9A9A9A"
+                   Margin="-20,-20,-20,-20"
+                   HeightRequest="50"></Entry>
+                </Frame>
+                <Frame CornerRadius="10" BackgroundColor="Black" Margin="0,0,0,30">
+                    <Entry x:Name="Name3"
+                   Placeholder="Отчество" 
+                   BackgroundColor="#EFEFEF" 
+                   TextColor="Black" 
+                   PlaceholderColor="#9A9A9A"
+                   Margin="-20,-20,-20,-20"
+                   HeightRequest="50"></Entry>
+                </Frame>
+
+
+                <Label Text="Пол" TextColor="#9A9A9A"/>
+                <StackLayout RadioButtonGroup.GroupName="sex">
+                        <Frame CornerRadius="10" BackgroundColor="Transparent" Margin="0,0,0,0">
+                        <RadioButton Content="Женский" 
+                                 TextColor="Black"
+                                 x:Name="Female"
+                                 GroupName="sex"
+                                 Margin="-18,-20,-20,-17"/>
+                    </Frame>
+                        <Frame CornerRadius="10" BackgroundColor="Transparent" Margin="0,0,0,0">
+                        <RadioButton Content="Мужской" 
+                                  Margin="-18,-20,-20,-17"
+                                  TextColor="Black"
+                                         x:Name="Male"
+                                 GroupName="sex"/>
+                    </Frame>
+                </StackLayout>
+
+
+                <Frame CornerRadius="10" BackgroundColor="Black" Margin="0,20,0,30">
+                    <Entry x:Name="Mail"
+                   Placeholder="E-mail" 
+                   BackgroundColor="#EFEFEF" 
+                   TextColor="Black" 
+                   PlaceholderColor="#9A9A9A"
+                   Margin="-20,-20,-20,-20"
+                   HeightRequest="50"></Entry>
+                </Frame>
+
+                <Frame CornerRadius="10" BackgroundColor="Black" Margin="0,0,0,30">
+                    <Entry x:Name="OldPass"
+                   Placeholder="Старый пароль" 
+                   BackgroundColor="#EFEFEF" 
+                   TextColor="Black" 
+                   PlaceholderColor="#9A9A9A"
+                   Margin="-20,-20,-20,-20"
+                   HeightRequest="50"
+                   IsPassword="True"></Entry>
+                </Frame>
+
+                <Frame CornerRadius="10" BackgroundColor="Black" Margin="0,0,0,30">
+                    <Entry x:Name="Pass"
+                   Placeholder="Пароль" 
+                   BackgroundColor="#EFEFEF" 
+                   TextColor="Black" 
+                   PlaceholderColor="#9A9A9a"
+                   Margin="-20,-20,-20,-20"
+                   HeightRequest="50"
+                   IsPassword="True"></Entry>
+                </Frame>
+
+
+                <Button Text="+Добавить фото" 
+                   TextColor="Black"
+                   Margin="0,0,0,70"
+                    BackgroundColor="Transparent"
+                    HorizontalOptions="Start"/>
+
+
+
+
+            </StackLayout>
+        </ScrollView>
+            <Button ImageSource="aapply.png" Clicked="Apply" BackgroundColor="Transparent" Margin="40,-55,40,0" Grid.Row="1"
+                    Grid.ColumnSpan="2"></Button>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

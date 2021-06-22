@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App5.Views.game52"
+             Title="Оригинальная мозаика"
+             BackgroundColor="#e5e5e5">
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame  BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <Label Text="Оригинальная мозаика"
+                       TextColor="Black"
+                       FontSize="25"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"/>
+                        <Label Text="Яичная скорлупа может быть оригинальным материалом для создания самодельной мозаики. Для начала собери яичную скорлупу. Затем попроси малыша измельчить ее толкушкой в миске или скалкой на столе. Можно сделать элементы разноцветными – для этого в нескольких стаканах разведи краски (они должны быть насыщенными) и брось туда скорлупу. Через 15—20 минут достань ее и хорошо просуши. Теперь можете приступать к созданию мозаики. Можно выкладывать элементы произвольно (например, попроси малыша сделать цветок, дерево, дом) или по распечатанному заранее шаблону."
+                           TextColor="Black"
+                           FontSize="20"
+                           HorizontalOptions="FillAndExpand"/>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

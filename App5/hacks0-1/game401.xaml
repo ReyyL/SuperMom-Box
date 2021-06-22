@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.game401" Title="Фактурная коробочка"
+             BackgroundColor="#e5e5e5">
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame  BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <Label Text="Фактурная коробочка"
+                       TextColor="Black"
+                       FontSize="25"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"/>
+                        <Label Text="Возьми коробочку, сложи в неё мелкие кусочки ткани с разными фактурами (шелк, шерсть, мех, вельвет, кожа, а также кусочки плотной ткани с пришитыми крепко пуговицами). Вкладывай в ладонь ребенка кусочки ткани, поглаживай ими ладошку. Комментируй каждое прикосновение например: «Вот какой лоскуток! Лоскуток из шелка, шелк прохладный, гладкий, тонкий! "
+                           TextColor="Black"
+                           FontSize="20"
+                           HorizontalOptions="FillAndExpand"/>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

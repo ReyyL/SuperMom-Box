@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box136"
+             BackgroundColor="#e5e5e5"
+             Title="Погремушка">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <!--имя-->
+                        <Label Text="Лабиринт" 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="Лабиринты принадлежат к тем видам игрушек, которые способны удерживать внимание детей различного возраста максимально долго. Они оказывают положительное влияние на развитие мелкой моторики ребенка, формируют логическую деятельность, а главное, обучают самостоятельной игре."
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                        <!--как-->
+                        <Label Text="При знакомстве с игрушкой, позволь малышу сначала ее изучить, рассмотреть, попытаться угадать, для чего она предназначена. Передвигая бусинки по проволочкам, малыш с радостью открывает для себя, что именно его действия приводят в движение бусинки, что именно он может задать им направление - вперед или назад, по одной дорожке или по нескольким. Таким образом, малыш начинает четко видеть те изменения, которые сам производит. И это его приводит в восторг, он не только выделяет свои действия и их результаты, он начинает постепенно выделять и себя из окружающей среды. Было бы лучше, если у крохи будет две подобных игрушки, но в его распоряжении должна быть только одна, (вторую убирай с глаз, как только ребенок потеряет интерес к первой, - самое время поменять их местами, достать одну и убрать другую)."
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

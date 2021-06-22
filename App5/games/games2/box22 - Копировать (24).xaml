@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box215"
+             BackgroundColor="#e5e5e5"
+             Title="Клюющие курочки на планшете">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <Label Text="Клюющие курочки на планшете " 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="Очень полезны игрушки, которые приходят в движение от действий ребенка. Они не только развлекают, но и развивают малыша.  Курочки – это традиционная игрушка, наше культурное наследие. Они не только развлекают, но и развивают малыша. Тренируются запястье и мелкие мышцы рук, развивается ловкость, мелкая моторика и музыкальный слух. А ещё курочек можно расписать красками.
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <!--как-->
+                        <Label Text="Сначала положи игрушку перед ребенком, покажи курочек, как они «говорят»: «Ко-ко-ко». Покажи клюв, глазки, шею, покажи зернышки, наклони птичку, продемонстрируй, как она ест, пусть ребенок сам попробует покормить птиц. Потом возьми планшет за ручку, покажи шарик, привязанный за ниточки. Нужно трясти ручку, чтобы он начал болтаться. Курочки друг за дружкой начинают клевать зёрнышки. Последовательность движений зависит от траектории шарика. В итоге получается интересное сочетание звуков, которое поможет в развитии музыкального слуха.
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

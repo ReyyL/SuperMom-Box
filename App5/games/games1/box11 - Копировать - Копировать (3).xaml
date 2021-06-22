@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box123"
+             BackgroundColor="#e5e5e5"
+             Title="Погремушка">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <!--имя-->
+                        <Label Text="Шумовые инструменты" 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="Музыка всегда наряду с движением, речью и игрушками являлась необходимым условием общего развития детей. Игра на детских шумовых инструментах развивает музыкальный слух, ритм, музыкальную память, развивает навыки мелкой и крупной моторики, а также слуховые, зрительные, тактильные способности к восприятию."
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                        <!--как-->
+                        <Label Text="Знакомя ребенка с инструментом, дай ему возможность изучить инструмент самостоятельно.Покажи малышу какими разнообразными могут быть издаваемые звуки: тихими и громкими, продолжительными и непродолжительными, глухими и звонкими. Продемонстрируй от чего зависитиздаваемый звук. Например, предложи ему поиграть на бубне, ударяя по нему ладонью, затем пальчиками. Напевай/ включай малышу детские песенки, пусть он стучит, хлопает, гремит во время прослушивания в такт музыке. Чередуй инструменты для развития чувства ритма и музыкальной активности крохи."
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

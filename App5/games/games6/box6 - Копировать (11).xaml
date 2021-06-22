@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box612"
+             BackgroundColor="#e5e5e5"
+             Title="Набор деревянных букв">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <Label Text="Набор деревянных букв" 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="   Начинаем (или продолжаем) знакомить малыша с буквами алфавита. В этом наборе буквы представлены нецветными и выполнены из экологичного материала.  Раскрашивание и украшение букв даст ребенку возможность применить свои творческие способности в рисовании и других техниках, а запоминание букв пройдет значительно легче.
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <!--как-->
+                        <Label Text="   Пусть малыш выберет любую букву (это может быть начальная буква его имени, например) и начнет ее волшебное превращение. Каждую букву в алфавите раскраски можно сделать уникальной и неповторимой. Для начала остановите свой выбор на обычной гуаши, чтобы ребенок попробовал свои силы.  Затем можно поэкспериментировать с блестками, пайетками, пластилином и даже природным материалом (семечки, крупа, ракушки).
+&#10;   Для развития ассоциаций, можно сделать букву «К» – красной, «С» – синей, на букву «З» наклеить зернышки, на «Л» -  нарисовать листики и т.д. Включите воображение, и малыш быстрее сможет запомнить родной алфавит, прекрасно проводя время за творческими поделками. 
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

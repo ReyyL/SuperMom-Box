@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box59"
+             BackgroundColor="#e5e5e5"
+             Title="Игра «Наклей-ка»">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <Label Text="Игра «Наклей-ка»" 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="   Игра с наклейками 'Лица и эмоции' - это увлекательное занятие, которое подарит ребенку не только веселое времяпрепровождение, но и поможет получить новые знания. Набор содержит изображения лиц персонажей и многоразовые наклейки, изображающие различную мимику человека. В процессе игры ребенок получит представление о частях тела человека, о том, как выглядят эмоции, и как меняется мимика лица в зависимости от настроения.
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <!--как-->
+                        <Label Text="   Наклеивайте на шаблоны лиц наклейки с частями тела, придавая одному и тому же персонажу любое настроение и меняя выражение его лица.
+&#10;   Предложи малышу выбрать определенного героя из набора, который бы олицетворял его самого, и задавай наводящие вопросы: «Изобрази, какое у тебя сегодня настроение?», «Что ты испытываешь, когда мы идем гулять в твой любимый парк?», «Что ты чувствуешь, когда мы едем в гости к бабушке и дедушке» и т.д.
+&#10;   Можно «назначить» какого-либо персонажа из альбома мамой, папой и поиграть с ними, задавая те же вопросы.
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

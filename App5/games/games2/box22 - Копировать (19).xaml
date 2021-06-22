@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box221"
+             BackgroundColor="#e5e5e5"
+             Title="Конструктор «Сказка»">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <!--имя-->
+                        <Label Text="Конструктор «Сказка»" 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="Сказкотерапия позволяет в легкой ненавязчивой форме решить те или иные проблемы психики малышей (страхи, тревожность), исправить негативные черты характера, раскрыть способности и внутренний мир. Игра в сказку - психологическая коррекция, помогающая развитию гармоничной личности и решению индивидуальных проблем. "
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <!--как-->
+                        <Label Text="На примере героев можно проследить особенности поведения и поступков, разобрать конкретную жизненную ситуацию. Такая игра становится средством развития личности, воображения, памяти, речи. Придумай интересный сюжет, распредели роли, расставь декорации, и вот вы уже в волшебном мире сказки. Детали, выполненные из натурального дерева, приятны на ощупь, что способствует развитию тактильной чувствительности, мелкой моторики. При озвучивании героев прояви фантазию, используй шумовые эффекты, это, несомненно, благотворно скажется на развитии речи твоего малыша.
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

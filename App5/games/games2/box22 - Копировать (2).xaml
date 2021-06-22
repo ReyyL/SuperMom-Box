@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box220"
+             BackgroundColor="#e5e5e5"
+             Title="Раскраска для самых маленьких, пальчиковая">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <!--имя-->
+                        <Label Text="Раскраска для самых маленьких, пальчиковая" 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="В отличие от рисования на белом листе бумаги, работа в раскраске знакомит малыша с новыми предметами, пополняет его копилку зрительных образов, учит действовать в рамках правил. Раскрашивая пальчиком изображение, малыш учится чувствовать границы. Такие занятия способствуют развитию воображения, образного мышления, тактильной чувствительности, осознанию ребенком собственного тела. Ребенок передает свои чувства и ощущения на бумагу в виде рисунка различной цветовой гаммы. Пальчиковые краски — это способ самовыражения, а также раннее развитие творческих способностей."
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <!--как-->
+                        <Label Text="Сложи пальчики ребенка в кулачок, а указательным, как кисточкой, научи обмакивать в краску и наносить оттиски на бумагу. Следи, чтобы ладошка малыша была не растопырена (не раскрыта), а сжата в кулачок, рисование именно таким образом и способствует всему вышесказанному. 
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

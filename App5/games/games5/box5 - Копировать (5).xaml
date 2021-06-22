@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box57"
+             BackgroundColor="#e5e5e5"
+             Title="Набор «Насекомые»">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <Label Text="Набор «Насекомые»" 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="   В данный набор входят очень реалистичные фигурки насекомых для продолжения знакомства малыша с миром живой природы, с обитателями земли. После изучения игрушечных жучков-паучков, малыш обязательно включит их в свои игры.
+ "
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <!--как-->
+                        <Label Text="   Рассматривайте с ребенком игрушки и отмечайте характерные признаки каждого, отличия или сходства между ними. Вспомните, каких насекомых вы с ребенком уже встречали. Для серьезности момента можно подключить использование лупы при изучении «экспонатов».
+&#10;   Фигурки насекомых также можно использовать во время купания. Опусти игрушки в воду, обращая внимание малыша на изменения цвета и причудливости форм. Попутно обсуждайте, какие обитатели из набора могут находиться в воде или вообще соприкасаться с ней, а каким насекомым этого делать нельзя.
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

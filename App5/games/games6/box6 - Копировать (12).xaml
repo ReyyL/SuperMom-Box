@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box611"
+             BackgroundColor="#e5e5e5"
+             Title="Головоломка">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <Label Text="Головоломка" 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="   Возраст малыша предполагает его знакомство с новыми, все более сложными задачками и головоломками.  Игра, которую мы хотим предложить в данном боксе, направлена на развитие логического мышления и концентрации внимания. Прежде чем познакомить ребенка с этой головоломкой, попробуй справиться с ней сама. Тогда ты сможешь доступно объяснить правила и алгоритм действия.
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <!--как-->
+                        <Label Text="   Задания головоломки описаны в инструкции. Необходимо заполнить игровое поле десятью двухсторонними деталями, располагая Х и О в определенной последовательности. Постепенно осваиваясь в игре, выполните все 120 заданий этой увлекательной головоломки вместе с малышом. Он будет невероятно горд собой после этого!
+&#10;   Игра очень компактная, поэтому вы сможете брать ее с собой в путешествие, в дорогу и т.д.
+&#10;   Предложи малышу задействовать детали игры не по правилам. Разложи элементы головоломки на стол и предложи ребенку составить из них различные картины и рамочки.
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

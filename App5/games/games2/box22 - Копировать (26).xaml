@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box213"
+             BackgroundColor="#e5e5e5"
+             Title="Колокольчики: металл и дерево">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <Label Text="Колокольчики: металл и дерево" 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="Музыка для детей является необходимым условием общего развития. Детские инструменты и развивающие музыкальные игрушки улучшают музыкальный слух, память и ритмику, закладывают навыки мелкой и крупной моторики, невербального общения, зрительные, слуховые и тактильные способности к восприятию. Польза детских музыкальных инструментов еще и в том, что они приносят детям радость, позволяют почувствовать себя исполнителем, устроив настоящий концерт.
+&#10;   Колокольчики – доступный и увлекательный музыкальный инструмент. 
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <!--как-->
+                        <Label Text="Сначала поиграйте в игру: позвени металлическим колокольчиком из другой комнаты, потом подойди поближе и, наконец, покажи малышу, что так звучит. Когда ребенок уже будет знать звон этого инструмента, достань деревянный и также поиграй с ним.   Ты можешь показать ребенку с музыкальной стороны, как капает дождик, как звенит ручей, как мчатся сани Деда Мороза. Поиграйте в прятки с колокольчиком, сделайте звон колокольчика сигналом к обеду или купанию.
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

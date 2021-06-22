@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box63"
+             BackgroundColor="#e5e5e5"
+             Title="Книга «Атлас Мира»">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <Label Text="Книга «Атлас Мира»" 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="   Малыш уже совсем взрослый, и ему хочется узнавать все больше и больше о мире, в котором мы живем.
+&#10;   «Мой первый атлас мира» - чудесная книга с наклейками. Благодаря ему ребенок сможет побывать в самых разных уголках нашей планеты. Необыкновенные животные, известные достопримечательности, удивительные творения природы и человечества – все это и многое другое ребенок найдет на страницах представленной книги.
+&#10;   Расширяем кругозор малыша, тренируем его внимание и смекалку.
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <!--как-->
+                        <Label Text="    Откройте атлас и представьте, что вы совершите кругосветное путешествие по нашей планете! Организовывая игровые ситуации, ты помогаешь ребенку запоминать большое количество информации легко.
+&#10;   Объясняй ребенку все непонятные слова, такие как «континент», например.
+&#10;   Предложи малышу игру «Запоминай-ка». Перечисли названия океанов или морей и попроси ребенка назвать, что он запомнил. Затем предложи ему побыть в роли учителя и спросить, что запомнила ты. 
+&#10;   В середине книги размещен лист с наклейками - рассматривайте атлас и наклеивайте их на отмеченные места.
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

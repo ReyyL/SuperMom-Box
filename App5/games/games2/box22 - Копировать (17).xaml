@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box223"
+             BackgroundColor="#e5e5e5"
+             Title="Набор для уборки">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <Label Text="Набор для уборки" 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="2 года – сензитивный период восприятия порядка. Порядок должен быть во всем: в окружающей обстановке, во времени, в поведении взрослых. Игра «Уборка» превратит собирание разбросанных вещей в веселое и увлекательное занятие. Такие игры в мягкой форме привьют любовь к порядку.
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <!--как-->
+                        <Label Text="Придумай сюжетно-ролевую игру. Маленькие дети играют везде и всюду. Покажи, как пользоваться каждым предметом из набора.«Превратись в бульдозер», который собирает мусор, или «подъемный кран», который собирает кубики в ящик. Можно развозить игрушки «на такси» по их «домам». А можно играть с ребенком в «Кто быстрее». Или предложи малышу самому расставить по местам несколько игрушек, а потом отгадай, какие именно игрушки он расставил. Если на полу остался мелкий мусор, пусть малыш соединит большой и указательный пальцы, представит, что это цыплята и пойдет «клевать» зернышки, собирая в кулачок соринки.
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

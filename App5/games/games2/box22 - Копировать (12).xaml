@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box228"
+             BackgroundColor="#e5e5e5"
+             Title="Металлофон">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <Label Text="Металлофон" 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="Обучаясь игре на детских музыкальных инструментах, дети открывают для себя мир музыкальных звуков, начинают различать красоту звучаний различных инструментов. Металлофон - это инструмент, который способствует развитию координации и моторики у малыша. "
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <!--как-->
+                        <Label Text="Покажи малышу, что для того чтобы извлечь звук, надо ударить по одному предмету другим. Играя с ребенком, можно стучать палочкой, одновременно называя цвета под звук металлофона – так малыш очень быстро их запомнит. Стучать палочками, беспорядочно извлекая звуки, быстро надоест малышу. Как только он научится держать палочки и попадать ими по пластинам, можно начинать выбивать ритм. Для этого надо просто рассказывать короткие детские стихи, которые ребенок часто слышал и узнает, и, проговаривая слог, ударять по инструменту.
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

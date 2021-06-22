@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box217"
+             BackgroundColor="#e5e5e5"
+             Title="Корзинка продуктовая">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <Label Text="Корзинка продуктовая" 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="постоянно наполняя ее, перенося вещи с места на место, малыш чувствует себя очень взрослым, как мама или папа в магазине. Ведь именно через подражание взрослым ребенок развивается, у него закладываются поведенческие навыки. В детской комнате корзина вместит в себя приличное количество игрушек, не займет много места и принесет пользу, радость и красоту в жизнь ребенка. Ни для кого не секрет, как дети любят переносить свои игрушки с места на место. Используй ее во время прогулки: складывайте игрушки, камушки, веточки, листочки."
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

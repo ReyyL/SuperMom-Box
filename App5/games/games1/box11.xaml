@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box11"
+             BackgroundColor="#e5e5e5"
+             Title="Погремушка">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                <Label Text="Погремушка"
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                <Label Text="Погремушки используются для всестороннего развития малыша. С их помощью ребенок учится фокусировать свой взгляд, следить за предметом и отличать, откуда идет шум. Погремушки развивают слуховые и зрительные навыки, знакомят малышей с разными формами и цветами.
+&#10;   На первое время малышу необходимо 3-5 погремушек, разнообразных по форме, цвету, материалу, звуку, фактуре (гладкие, ребристые, выпуклые и тд):"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                <Label Text="-конструкция должна соответствовать ручке малыша,"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                <Label Text="-погремушка не должна быть тяжёлой."
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                <Label Text="- особый интерес для ребенка представляют прозрачные погремушки, с перекатывающимися внутри предметами "
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                <Label Text="В первые дни жизни погремушку необходимо держать перед лицом ребенка, издавая звук и привлекая внимание малыша.
+&#10;   Затем предложи малышу наблюдать за погремушкой. Чтобы он научился следить за предметом - передвигай его слева направо на расстоянии 25-30 см от личика. 
+&#10;   Положи ребенку на ладошку погремушку. Малыш сожмет ладошку и обхватит её пальчиками, (помоги малышу обхватить погремушку, если у него не получилось). Потряси погремушку."
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

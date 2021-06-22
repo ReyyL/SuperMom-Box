@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box114"
+             BackgroundColor="#e5e5e5"
+             Title="Погремушка">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <!--имя-->
+                        <Label Text="Неваляшка" 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="Неваляшка считается традиционной игрушкой для детей. Выбирая неваляшку для ребенка, обязательно смотри на материал, из которого она изготовлена. Он должен быть экологичным, прочным, с качественным покрытием. Внимания заслуживает и звуковое сопровождение. Мелодичный звон способствует развитию слуха малыша, терпения и усидчивости. Чем приятнее звук, тем дольше он будет привлекать внимание ребенка."
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                        <!--как-->
+                        <Label Text="Положи малыша на спину или живот. А неваляшку - на расстоянии 50 см. Привлекивнимание малыша покачиванием игрушки. Затем плавно перемещай игрушку так, чтобы она оказалась сбоку. Раскачай ее, привлекая внимание малыша. Вероятно, он попытается дотянуться до неваляшки и самостоятельно привести ее в действие."
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

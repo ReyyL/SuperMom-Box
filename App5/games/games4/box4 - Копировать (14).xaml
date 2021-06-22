@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box411"
+             BackgroundColor="#e5e5e5"
+             Title="Набор штампов">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <Label Text="Набор штампов" 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="Отличный набор для развития творческих способностей ребенка, его воображения, усидчивости и, конечно, мелкой моторики.
+&#10;   Разнообразные виды штампиков помогут в повторении и изучении цветов и форм.
+&#10;   Чтобы картинки получились красивыми, нужно действовать терпеливо и аккуратно. Развивай в ребенке эти качества, они пригодятся ему в учебе.
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <!--как-->
+                        <Label Text="Достань и покажи малышу карточки, штампы, чернильницу. Объясни, как действовать: нужно открыть чернильницу, приложить к красящей поверхности штамп, а затем аккуратно прижать штамп к поверхности бумаги.
+&#10;   Рисуйте узоры, чередуя оттиски штампов, или целые картины. Позволь малышу пофантазировать!
+&#10;   Оформите вместе открытку для бабушки или сделайте жетоны для игры в магазин, разрезав лист с отпечатками на отдельные квадраты/прямоугольники. 
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

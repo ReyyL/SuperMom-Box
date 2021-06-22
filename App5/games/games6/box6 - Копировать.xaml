@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box62"
+             BackgroundColor="#e5e5e5"
+             Title="Игра «Мемо»">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <Label Text="Игра «Мемо»" 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="   Продолжаем знакомить малыша с настольными играми. Этот вид карточных игр направлен на развитие внимания и памяти. Красочные изображения расскажут малышу много нового и интересного, а несложные правила игры увлекут ребенка.
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <!--как-->
+                        <Label Text="   Разложи карточки на столе картинками вниз. Начинает игру самый младший игрок и ход переходит по часовой стрелке. Игроки по очереди переворачивают по две карточки таким образом, чтобы все могли видеть изображенные на них картинки. Если картинки на карточках одинаковые, то игрок забирает их. Если картинки на карточках не совпадают, то игрок кладёт карточки обратно картинками вниз и ход переходит к следующему игроку, сидящему слева. Выигрывает тот игрок, который к концу игры наберет большее количество парных карточек.
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

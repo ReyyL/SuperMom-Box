@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box410"
+             BackgroundColor="#e5e5e5"
+             Title="Игра «Съедобное – несъедобное»">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <Label Text="Игра «Съедобное – несъедобное»" 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="Данный комплект дает замечательную возможность в игровой форме повторить свойства предметов, расширить кругозор и словарный запас. В дополнение, работа с деталями игры способствует развитию моторики и усидчивости. 
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <!--как-->
+                        <Label Text="Познавательная игра «Съедобное – несъедобное» поможет тебе без труда объяснить ребенку, что можно употреблять в пищу, а что нельзя. Даже если малыш знает эти свойства предметов, форма игры обязательно позабавит его.
+&#10;   Поставь фигурки, разложи фишки и на своем примере покажи малышу, как нужно играть в данную игру. Те карточки, на которых изображены несъедобные предметы просто не будут помещаться в рот кукол. В то время как фишки с изображением съедобного человечки будут с удовольствием «съедать». 
+&#10;   Во время игры называй предметы, изображенные на фишках.  Спрашивай, знает ли малыш, для чего он нужен. Объясни малышу, почему мы не можем употреблять то, что изображено на «несъедобном», а также рассказывай о полезности продуктов, изображенных на «съедобных» фишках.
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

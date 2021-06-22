@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box124"
+             BackgroundColor="#e5e5e5"
+             Title="Погремушка">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <!--имя-->
+                        <Label Text="Свистулька" 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="Свистулька — народный музыкальный инструмент, часть немного забытой культуры малыша, истории его страны. Такая игрушка хорошо развивает дыхание малыша. Даже самые, казалось бы, простые упражнения будут полезны. Начинать лучше всего с простых свистулек, ведь для того, чтобы получить звук, достаточно лишь тихонько дунуть. Надо выбирать свистульки, удобные для ручек малыша, и негромкие. "
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                        <!--как-->
+                        <Label Text="Свистульку зажми в кулаке так, чтобы малыш не заметил ее, и, отвернувшись, осторожно посвисти. Когда малыш сосредоточится на необычном звуке, сделай удивленное лицо, разведи руки в стороны и скажите: «Кто же там свистит? Может, птичка к нам прилетела?» - покажи малышу птичку и спрячь за спину, удивленно восклицая: «Улетела!». Сделай игру эмоционально насыщенной. Посади птичку на ладошку к малышу. Отбрасывай птичку в сторону, говоря: «Где птичка, куда полетела? Скорее поймай птичку! Дай маме! Дай, дай, дай!». Пусть малыш возьмет ее в руки и попробует сам поиграть. Покажи малышу, как нужно дуть, чтобы у него получилось издать звук."
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

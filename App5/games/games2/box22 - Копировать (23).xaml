@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box216"
+             BackgroundColor="#e5e5e5"
+             Title="Набор овощей и фруктов">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <!--имя-->
+                        <Label Text="Набор овощей и фруктов" 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="Яркие, красочные и такие понятные ребенку овощи и фрукты. Пусть малыш просто играет ими без лишних усилий. Такая игрушка поможет ребенку наглядно изучить фрукты и овощи, представляя себя в роли маленького повара. Наборы овощей и фруктов обогащают игру ребенка. Манипулируя ими, он способен увлечься надолго.
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <!--как-->
+                        <Label Text="В процессе игры взрослый каждый раз классифицирует овощи и фрукты, не важно, что ребенок тут же их перепутает или не будет повторять за вами. Постепенно вы сможете классифицировать их совместно, а затем и ребенок самостоятельно. Важно проговаривать вслух свои действия: «Давай варить суп! Нам нужны овощи! Неси морковку – это овощ, картошка – тоже овощ, и лук давай сюда!» Не забывай, что надо всегда начинать постепенно, создавая малышу ситуацию успеха, и поначалу, пока он не выучит овощи, не стоит показывать фрукты, хотя бы 2-3 недели. Таким образом, что бы ни принес ребенок для супа, это будет овощ! 
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             x:Class="App5.Views.game0110"
+             Title="Горка"
+             BackgroundColor="#e5e5e5">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame  BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                <StackLayout>
+                <Label Text="Горка"
+                       TextColor="Black"
+                       FontSize="25"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"/>
+                    <Label Text="Построй из подручных средств небольшую горку, так чтобы ребенок хорошо видел происходящее. А теперь скати с этой горки небольшой мячик, машинку или любую другую игрушку. Это станет для него примером причинно-следственных связей между явлениями. Вот как!
+"
+                           TextColor="Black"
+                           FontSize="20"
+                           HorizontalOptions="FillAndExpand"/>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

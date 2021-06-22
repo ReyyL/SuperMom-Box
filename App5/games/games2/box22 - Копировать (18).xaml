@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box222"
+             BackgroundColor="#e5e5e5"
+             Title="Набор доктора">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <Label Text="Набор доктора" 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="Целью ролевых игр является формирование игровых умений, развитие социальных и коммуникативных навыков. В этом возрасте ребенок начинает активно подражать взрослым и включать в игру понятные ему сюжеты и роли. Такая игра развивает воображение и фантазию."
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <!--как-->
+                        <Label Text="Игра начинается с распределения ролей. Одновременно можно расширить знания о профессиях, пополнить словарный запас ребенка. Если это игра в доктора, то малыш может отрабатывать навыки врача не только на родителях, но и игрушках. Сюжетные линии могут быть разные: врач приезжает по вызову, либо это поход к педиатру, офтальмологу, стоматологу. Кроме того, игра в «Больницу» поможет подготовить ребенка к походу к настоящему врачу. 
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

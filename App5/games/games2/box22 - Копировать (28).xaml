@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box211"
+             BackgroundColor="#e5e5e5"
+             Title="Книжка с красивыми красочными картинками">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <!--имя-->
+                        <Label Text="Книжка с красивыми красочными картинками" 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="Чтение, рассказывание взрослым малышу – это обязательный момент в развитии речи ребенка. При выборе первых книг надо обратить внимание на красочность картинок, на легкость их восприятия ребенком. Хорошо, если изображения будут приближены к реальному виду предмета/животного. Очень хорошо подойдут в этом плане фото-книги с изображениями из реальной жизни. Текста в книгах пока не должно быть много: обычно это простые рассказы, короткие стишки. 
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                        <!--как-->
+                        <Label Text="Стихи, потешки сопровождай движениями и предлагай малышу повторять за тобой. Расскажите всем родным и близким выученное стихотворение. Даже если ребенок ещё не говорит, ты рассказываешь стих, а ребенок показывает движения. Таким образом, у него накапливается пассивный словарь и тренируется память.
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

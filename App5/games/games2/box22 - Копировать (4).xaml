@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box29"
+             BackgroundColor="#e5e5e5"
+             Title="Книги, отражающие разные занятия детей и взрослых">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <Label Text="Книги, отражающие разные занятия детей и взрослых" 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="Яркие образы и красочные иллюстрации привлекут внимание крохи. Малыш с удовольствием будет рассматривать картинки и слушать весёлые стишки, которые в доступной форме объяснят правила поведения. Для ребенка очень важно понимать, что взрослые просят от него выполнения определенных действий не просто потому, что им так хочется, а потому, что есть общепринятые модели поведения. Короткие стишки быстро запоминаются, проговаривай их с малышом по случаю в течение дня.
+"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="30,0,30,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

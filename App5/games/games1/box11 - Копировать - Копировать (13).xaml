@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box131"
+             BackgroundColor="#e5e5e5"
+             Title="Погремушка">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <!--имя-->
+                        <Label Text="Сортер	" 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="Примерно к 6 месяцам дети осваивают важное умение – учатся сидеть и в это же время начинают распознавать очертания предметов, анализируют их размер, форму и цвет.Сортер - игрушка, которая имеет в своей основе принцип сортировки предметов по размерам, по форме, цвету. Кроме того, такая игрушка способствует развитию у детей мелкой моторики рук, внимательности и усидчивости."
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                        <!--как-->
+                        <Label Text="При первом знакомстве с сортером, сначала покажи малышу, как играть с игрушкой. Называй фигуры и их цвета. Попробуй несколько раз специально протолкнуть фигурку в неподходящее отверстие, после чего, найди нужный проём. Попроси малыша повторить действия, возьми ручку малыша в свою руку и помоги ему найти нужное отверстие"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

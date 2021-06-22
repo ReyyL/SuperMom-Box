@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box17"
+             BackgroundColor="#e5e5e5"
+             Title="Погремушка">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <Label Text="Мякиши"
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Center"
+                   Margin="30,0,0,10"
+                       FontAttributes="Bold"/>
+                        <Label Text="Мякиши идеально подходят для самых маленьких, поскольку у них нет острых углов.Красочное оформление и множество занимательных игровых элементов способствуют сенсорному и эмоциональному развитию малыша, дарят ему радость.
+&#10;   Мякиши не должны быть большими, но должны иметь ряд сюрпризов для малыша: материалы различной фактуры, вшитые погремушки, лапки-узелки, которые можно развязывать и завязывать, пищалки и т.д"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                        <Label Text="Помоги малышу потрогать ушки, помять мордочку, изучить разные материалы на ощупь - плюш, хлопок, сетку, пластик, вышивку, улыбнуться себе в безопасное зеркальце"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

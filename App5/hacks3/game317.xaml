@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App5.Views.game317"
+             Title="Поплывет или утонет?"
+             BackgroundColor="#e5e5e5">
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame  BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <Label Text="Поплывет или утонет?"
+                       TextColor="Black"
+                       FontSize="25"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"/>
+                        <Label Text="Для такой игры понадобятся: предметы, тонущие в воде (камушки, ложки, винтики, пуговицы), и предметы, не тонущие в воде (мячик, деревянные дощечки, пластмассовые игрушки), емкость с водой, два пустых ведерка.
+&#10;   Поставь перед ребенком тазик с водой и разложи все предметы. Пусть малыш кидает по очереди предметы в воду и наблюдает за ними (тонут они или же остаются на поверхности).
+&#10;   Потом доставайте предметы из воды и раскладывайте их по разным ведеркам — в одно, все, что не утонуло, в другое — то, что оказалось на дне.
+"
+                           TextColor="Black"
+                           FontSize="20"
+                           HorizontalOptions="FillAndExpand"/>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

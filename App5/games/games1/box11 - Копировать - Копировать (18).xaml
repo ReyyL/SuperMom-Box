@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box126"
+             BackgroundColor="#e5e5e5"
+             Title="Погремушка">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <Label Text="Книги для малыша" 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Center"
+                   Margin="30,0,0,10"
+                       FontAttributes="Bold"/>
+                        <Label Text="Знакомство с книгой возможно уже в самом нежном возрасте. Еще не понимая смысла слов, малыш способен реагировать на их ритм и интонацию маминого голоса: если мамины слова звучат игриво и весело, кроха улыбается; если мама говорит серьезным голосом, он становится серьезным. Так у малыша формируются жизненно важные эмоции. Главное, на что нужно обращать внимание при выборе книг – иллюстрации, в таких книжках они должны быть крупные, яркие, а еще лучше – музыкальные книги или книги с различной текстурой"
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

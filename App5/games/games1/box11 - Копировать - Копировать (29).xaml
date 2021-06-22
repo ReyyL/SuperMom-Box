@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box122"
+             BackgroundColor="#e5e5e5"
+             Title="Погремушка">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <!--имя-->
+                        <Label Text="Мяч" 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="Мяч – самая простая и в то же время универсальная игрушка. Обычный мяч может послужить хорошим «тренажёром» для развития у ребёнка самых разнообразных умений и навыков.Особенность игр с мячом в том, что они дают нагрузку на разные группы мышц, это настоящая комплексная гимнастика. И вполне очевидны такие плюсы занятий с мячом, как развитие глазомера, ловкости, координации движений.  "
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                        <!--как-->
+                        <Label Text="Обхватывать и удерживать круглый предмет малыш учится к 4-5 месяцам. Покажи малышу как нужно бросать мяч, как можно следить глазами за его направлением.Покажи, как можно толкнуть мяч от себя. Сначала действие нужно будет проделывать, управляя руками малыша. Аналогичным образом можно показать, как ловить мячик. Эта игра будет способствовать развитию координации движения и доставит удовольствиеребёнку. Сидя на полу, катайте мяч друг другу и старайтесь его поймать. Придерживая кроху под мышки, учи его пинать мяч ногой.Научившись ползать, кроха неизменно радуется, удивляется, порой сердится, когда мячик убегает. Мяч призывает и стимулирует его к движению."
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

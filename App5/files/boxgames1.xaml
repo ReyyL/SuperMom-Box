@@ -1,0 +1,807 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.boxgames1"
+             Title="Игры из бокса"
+             BackgroundColor="#e5e5e5">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <StackLayout.GestureRecognizers>
+                    <PanGestureRecognizer PanUpdated="OnPanUpdated" />
+                </StackLayout.GestureRecognizers>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,10,20,20">
+                    <StackLayout Orientation="Vertical">
+                        <Label Text="Игры из боксов"
+                               TextColor="Black"
+                               HorizontalOptions="Center"
+                               FontAttributes="Bold"
+                               FontSize="19"
+                               Margin="0,0,0,20"/>
+                        <StackLayout Orientation="Horizontal">
+                            <StackLayout  HorizontalOptions="Start">
+                                <!--aaaaaaaaaaaaaaa-->
+                                <Label Text="Погремушка" 
+                                       TextColor="Black"
+                                       FontSize="17"
+                                       />
+                            </StackLayout>
+                            <StackLayout  HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand">
+                                <Label Text=">"
+                                       TextColor="Black"
+                                       FontAttributes="Bold"/>
+                            </StackLayout>
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="game11"/>
+                                <!--aaaaaaaaaaaaaaaaaa-->
+                            </StackLayout.GestureRecognizers>
+                        </StackLayout>
+                        <Image Source="line.png" Aspect="AspectFill" Margin="-30,10,0,10"/>
+                        <StackLayout Orientation="Horizontal">
+                            <StackLayout  HorizontalOptions="Start">
+                                <!--aaaaaaaaaaaaaaa-->
+                                <Label Text="Контрастные картинки" 
+                                       TextColor="Black"
+                                       FontSize="17"
+                                       />
+                            </StackLayout>
+                            <StackLayout  HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand">
+                                <Label Text=">"
+                                       TextColor="Black"
+                                       FontAttributes="Bold"/>
+                            </StackLayout>
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="game12"/>
+                                <!--aaaaaaaaaaaaaaaaaa-->
+                            </StackLayout.GestureRecognizers>
+                        </StackLayout>
+                        <Image Source="line.png" Aspect="AspectFill" Margin="-30,10,0,10"/>
+                        <StackLayout Orientation="Horizontal">
+                            <StackLayout  HorizontalOptions="Start">
+                                <!--aaaaaaaaaaaaaaa-->
+                                <Label Text="Погремушка – гирлянда" 
+                                       TextColor="Black"
+                                       FontSize="17"
+                                       />
+                            </StackLayout>
+                            <StackLayout  HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand">
+                                <Label Text=">"
+                                       TextColor="Black"
+                                       FontAttributes="Bold"/>
+                            </StackLayout>
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="game13"/>
+                                <!--aaaaaaaaaaaaaaaaaa-->
+                            </StackLayout.GestureRecognizers>
+                        </StackLayout>
+                        <Image Source="line.png" Aspect="AspectFill" Margin="-30,10,0,10"/>
+                        <StackLayout Orientation="Horizontal">
+                            <StackLayout  HorizontalOptions="Start">
+                                <!--aaaaaaaaaaaaaaa-->
+                                <Label Text="Браслет-погремушка" 
+                                       TextColor="Black"
+                                       FontSize="17"
+                                       />
+                            </StackLayout>
+                            <StackLayout  HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand">
+                                <Label Text=">"
+                                       TextColor="Black"
+                                       FontAttributes="Bold"/>
+                            </StackLayout>
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="game14"/>
+                                <!--aaaaaaaaaaaaaaaaaa-->
+                            </StackLayout.GestureRecognizers>
+                        </StackLayout>
+                        <Image Source="line.png" Aspect="AspectFill" Margin="-30,10,0,10"/>
+                        <StackLayout Orientation="Horizontal">
+                            <StackLayout  HorizontalOptions="Start">
+                                <!--aaaaaaaaaaaaaaa-->
+                                <Label Text="Мини-коврики для ванной" 
+                                       TextColor="Black"
+                                       FontSize="17"
+                                       />
+                            </StackLayout>
+                            <StackLayout  HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand">
+                                <Label Text=">"
+                                       TextColor="Black"
+                                       FontAttributes="Bold"/>
+                            </StackLayout>
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="game15"/>
+                                <!--aaaaaaaaaaaaaaaaaa-->
+                            </StackLayout.GestureRecognizers>
+                        </StackLayout>
+                        <Image Source="line.png" Aspect="AspectFill" Margin="-30,10,0,10"/>
+                        <StackLayout Orientation="Horizontal">
+                            <StackLayout  HorizontalOptions="Start">
+                                <!--aaaaaaaaaaaaaaa-->
+                                <Label Text="Тактильные игрушки" 
+                                       TextColor="Black"
+                                       FontSize="17"
+                                       />
+                            </StackLayout>
+                            <StackLayout  HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand">
+                                <Label Text=">"
+                                       TextColor="Black"
+                                       FontAttributes="Bold"/>
+                            </StackLayout>
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="game16"/>
+                                <!--aaaaaaaaaaaaaaaaaa-->
+                            </StackLayout.GestureRecognizers>
+                        </StackLayout>
+                        <Image Source="line.png" Aspect="AspectFill" Margin="-30,10,0,10"/>
+                        <StackLayout Orientation="Horizontal">
+                        <StackLayout  HorizontalOptions="Start">
+                            <!--aaaaaaaaaaaaaaa-->
+                                <Label Text="Мякиши" 
+                                       TextColor="Black"
+                                       FontSize="17"
+                                       />
+                        </StackLayout>
+                        <StackLayout  HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand">
+                            <Label Text=">"
+                                       TextColor="Black"
+                                       FontAttributes="Bold"/>
+                        </StackLayout>
+                        <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="game17"/>
+                                <!--aaaaaaaaaaaaaaaaaa-->
+                            </StackLayout.GestureRecognizers>
+                    </StackLayout>
+                    <Image Source="line.png" Aspect="AspectFill" Margin="-30,10,0,10"/>
+                    <StackLayout Orientation="Horizontal">
+                        <StackLayout  HorizontalOptions="Start">
+                            <!--aaaaaaaaaaaaaaa-->
+                                <Label Text="Пирамидка-мякиш" 
+                                       TextColor="Black"
+                                       FontSize="17"
+                                       />
+                        </StackLayout>
+                        <StackLayout  HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand">
+                            <Label Text=">"
+                                       TextColor="Black"
+                                       FontAttributes="Bold"/>
+                        </StackLayout>
+                        <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="game18"/>
+                                <!--aaaaaaaaaaaaaaaaaa-->
+                            </StackLayout.GestureRecognizers>
+                    </StackLayout>
+                    <Image Source="line.png" Aspect="AspectFill" Margin="-30,10,0,10"/>
+                    <StackLayout Orientation="Horizontal">
+                        <StackLayout  HorizontalOptions="Start">
+                            <!--aaaaaaaaaaaaaaa-->
+                                <Label Text="Доктор-мякиш" 
+                                       TextColor="Black"
+                                       FontSize="17"
+                                       />
+                        </StackLayout>
+                        <StackLayout  HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand">
+                            <Label Text=">"
+                                       TextColor="Black"
+                                       FontAttributes="Bold"/>
+                        </StackLayout>
+                        <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="game19"/>
+                                <!--aaaaaaaaaaaaaaaaaa-->
+                            </StackLayout.GestureRecognizers>
+                    </StackLayout>
+                    <Image Source="line.png" Aspect="AspectFill" Margin="-30,10,0,10"/>
+                    <StackLayout Orientation="Horizontal">
+                        <StackLayout  HorizontalOptions="Start">
+                            <!--aaaaaaaaaaaaaaa-->
+                                <Label Text="Тактильный платочек" 
+                                       TextColor="Black"
+                                       FontSize="17"
+                                       />
+                        </StackLayout>
+                        <StackLayout  HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand">
+                            <Label Text=">"
+                                       TextColor="Black"
+                                       FontAttributes="Bold"/>
+                        </StackLayout>
+                        <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="game110"/>
+                                <!--aaaaaaaaaaaaaaaaaa-->
+                            </StackLayout.GestureRecognizers>
+                    </StackLayout>
+                    <Image Source="line.png" Aspect="AspectFill" Margin="-30,10,0,10"/>
+                    <StackLayout Orientation="Horizontal">
+                        <StackLayout  HorizontalOptions="Start">
+                            <!--aaaaaaaaaaaaaaa-->
+                                <Label Text="Резиновые зверята" 
+                                       TextColor="Black"
+                                       FontSize="17"
+                                       />
+                        </StackLayout>
+                        <StackLayout  HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand">
+                            <Label Text=">"
+                                       TextColor="Black"
+                                       FontAttributes="Bold"/>
+                        </StackLayout>
+                        <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="game111"/>
+                                <!--aaaaaaaaaaaaaaaaaa-->
+                            </StackLayout.GestureRecognizers>
+                    </StackLayout>
+                    <Image Source="line.png" Aspect="AspectFill" Margin="-30,10,0,10"/>
+                    <StackLayout Orientation="Horizontal">
+                        <StackLayout  HorizontalOptions="Start">
+                            <!--aaaaaaaaaaaaaaa-->
+                                <Label Text="Прорезыватель" 
+                                       TextColor="Black"
+                                       FontSize="17"
+                                       />
+                        </StackLayout>
+                        <StackLayout  HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand">
+                            <Label Text=">"
+                                       TextColor="Black"
+                                       FontAttributes="Bold"/>
+                        </StackLayout>
+                        <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="game112"/>
+                                <!--aaaaaaaaaaaaaaaaaa-->
+                            </StackLayout.GestureRecognizers>
+                    </StackLayout>
+                    <Image Source="line.png" Aspect="AspectFill" Margin="-30,10,0,10"/>
+                    <StackLayout Orientation="Horizontal">
+                    <StackLayout  HorizontalOptions="Start">
+                        <!--aaaaaaaaaaaaaaa-->
+                                <Label Text="Безопасное зеркало" 
+                                       TextColor="Black"
+                                       FontSize="17"
+                                       />
+                    </StackLayout>
+                    <StackLayout  HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand">
+                        <Label Text=">"
+                                       TextColor="Black"
+                                       FontAttributes="Bold"/>
+                    </StackLayout>
+                    <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="game113"/>
+                                <!--aaaaaaaaaaaaaaaaaa-->
+                            </StackLayout.GestureRecognizers>
+            </StackLayout>
+            <Image Source="line.png" Aspect="AspectFill" Margin="-30,10,0,10"/>
+            <StackLayout Orientation="Horizontal">
+                <StackLayout  HorizontalOptions="Start">
+                    <!--aaaaaaaaaaaaaaa-->
+                                <Label Text="Неваляшка" 
+                                       TextColor="Black"
+                                       FontSize="17"
+                                       />
+                </StackLayout>
+                <StackLayout  HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand">
+                    <Label Text=">"
+                                       TextColor="Black"
+                                       FontAttributes="Bold"/>
+                </StackLayout>
+                <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="game114"/>
+                                <!--aaaaaaaaaaaaaaaaaa-->
+                            </StackLayout.GestureRecognizers>
+            </StackLayout>
+            <Image Source="line.png" Aspect="AspectFill" Margin="-30,10,0,10"/>
+            <StackLayout Orientation="Horizontal">
+                <StackLayout  HorizontalOptions="Start">
+                    <!--aaaaaaaaaaaaaaa-->
+                                <Label Text="Дудочка" 
+                                       TextColor="Black"
+                                       FontSize="17"
+                                       />
+                </StackLayout>
+                <StackLayout  HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand">
+                    <Label Text=">"
+                                       TextColor="Black"
+                                       FontAttributes="Bold"/>
+                </StackLayout>
+                <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="game115"/>
+                                <!--aaaaaaaaaaaaaaaaaa-->
+                            </StackLayout.GestureRecognizers>
+            </StackLayout>
+            <Image Source="line.png" Aspect="AspectFill" Margin="-30,10,0,10"/>
+            <StackLayout Orientation="Horizontal">
+                <StackLayout  HorizontalOptions="Start">
+                    <!--aaaaaaaaaaaaaaa-->
+                                <Label Text="Музыкальная игрушка" 
+                                       TextColor="Black"
+                                       FontSize="17"
+                                       />
+                </StackLayout>
+                <StackLayout  HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand">
+                    <Label Text=">"
+                                       TextColor="Black"
+                                       FontAttributes="Bold"/>
+                </StackLayout>
+                <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="game116"/>
+                                <!--aaaaaaaaaaaaaaaaaa-->
+                            </StackLayout.GestureRecognizers>
+            </StackLayout>
+            <Image Source="line.png" Aspect="AspectFill" Margin="-30,10,0,10"/>
+            <StackLayout Orientation="Horizontal">
+                <StackLayout  HorizontalOptions="Start">
+                    <!--aaaaaaaaaaaaaaa-->
+                                <Label Text="Барабан" 
+                                       TextColor="Black"
+                                       FontSize="17"
+                                       />
+                </StackLayout>
+                <StackLayout  HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand">
+                    <Label Text=">"
+                                       TextColor="Black"
+                                       FontAttributes="Bold"/>
+                </StackLayout>
+                <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="game117"/>
+                                <!--aaaaaaaaaaaaaaaaaa-->
+                            </StackLayout.GestureRecognizers>
+            </StackLayout>
+            <Image Source="line.png" Aspect="AspectFill" Margin="-30,10,0,10"/>
+            <StackLayout Orientation="Horizontal">
+                <StackLayout  HorizontalOptions="Start">
+                    <!--aaaaaaaaaaaaaaa-->
+                                <Label Text="Тактильные книжки" 
+                                       TextColor="Black"
+                                       FontSize="17"
+                                       />
+                </StackLayout>
+                <StackLayout  HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand">
+                    <Label Text=">"
+                                       TextColor="Black"
+                                       FontAttributes="Bold"/>
+                </StackLayout>
+                <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="game118"/>
+                                <!--aaaaaaaaaaaaaaaaaa-->
+                            </StackLayout.GestureRecognizers>
+            </StackLayout>
+            <Image Source="line.png" Aspect="AspectFill" Margin="-30,10,0,10"/>
+            <StackLayout Orientation="Horizontal">
+            <StackLayout  HorizontalOptions="Start">
+                <!--aaaaaaaaaaaaaaa-->
+                                <Label Text="Пирамидка" 
+                                       TextColor="Black"
+                                       FontSize="17"
+                                       />
+            </StackLayout>
+            <StackLayout  HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand">
+                <Label Text=">"
+                                       TextColor="Black"
+                                       FontAttributes="Bold"/>
+            </StackLayout>
+            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="game119"/>
+                                <!--aaaaaaaaaaaaaaaaaa-->
+                            </StackLayout.GestureRecognizers>
+            </StackLayout>
+            <Image Source="line.png" Aspect="AspectFill" Margin="-30,10,0,10"/>
+            <StackLayout Orientation="Horizontal">
+                <StackLayout  HorizontalOptions="Start">
+                    <!--aaaaaaaaaaaaaaa-->
+                                <Label Text="Стучалка" 
+                                       TextColor="Black"
+                                       FontSize="17"
+                                       />
+                </StackLayout>
+                <StackLayout  HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand">
+                    <Label Text=">"
+                                       TextColor="Black"
+                                       FontAttributes="Bold"/>
+                </StackLayout>
+                <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="game120"/>
+                                <!--aaaaaaaaaaaaaaaaaa-->
+                            </StackLayout.GestureRecognizers>
+            </StackLayout>
+            <Image Source="line.png" Aspect="AspectFill" Margin="-30,10,0,10"/>
+            <StackLayout Orientation="Horizontal">
+                <StackLayout  HorizontalOptions="Start">
+                    <!--aaaaaaaaaaaaaaa-->
+                                <Label Text="Игрушка на колесиках (Машинка)" 
+                                       TextColor="Black"
+                                       FontSize="17"
+                                       />
+                </StackLayout>
+                <StackLayout  HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand">
+                    <Label Text=">"
+                                       TextColor="Black"
+                                       FontAttributes="Bold"/>
+                </StackLayout>
+                <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="game121"/>
+                                <!--aaaaaaaaaaaaaaaaaa-->
+                            </StackLayout.GestureRecognizers>
+            </StackLayout>
+            <Image Source="line.png" Aspect="AspectFill" Margin="-30,10,0,10"/>
+            <StackLayout Orientation="Horizontal">
+                <StackLayout  HorizontalOptions="Start">
+                    <!--aaaaaaaaaaaaaaa-->
+                                <Label Text="Мяч" 
+                                       TextColor="Black"
+                                       FontSize="17"
+                                       />
+                </StackLayout>
+                <StackLayout  HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand">
+                    <Label Text=">"
+                                       TextColor="Black"
+                                       FontAttributes="Bold"/>
+                </StackLayout>
+                <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="game122"/>
+                                <!--aaaaaaaaaaaaaaaaaa-->
+                            </StackLayout.GestureRecognizers>
+            </StackLayout>
+            <Image Source="line.png" Aspect="AspectFill" Margin="-30,10,0,10"/>
+            <StackLayout Orientation="Horizontal">
+                <StackLayout  HorizontalOptions="Start">
+                    <!--aaaaaaaaaaaaaaa-->
+                                <Label Text="Шумовые инструменты" 
+                                       TextColor="Black"
+                                       FontSize="17"
+                                       />
+                </StackLayout>
+                <StackLayout  HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand">
+                    <Label Text=">"
+                                       TextColor="Black"
+                                       FontAttributes="Bold"/>
+                </StackLayout>
+                <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="game123"/>
+                                <!--aaaaaaaaaaaaaaaaaa-->
+                            </StackLayout.GestureRecognizers>
+            </StackLayout>
+            <Image Source="line.png" Aspect="AspectFill" Margin="-30,10,0,10"/>
+            <StackLayout Orientation="Horizontal">
+                <StackLayout  HorizontalOptions="Start">
+                    <!--aaaaaaaaaaaaaaa-->
+                                <Label Text="Свистулька" 
+                                       TextColor="Black"
+                                       FontSize="17"
+                                       />
+                </StackLayout>
+                <StackLayout  HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand">
+                    <Label Text=">"
+                                       TextColor="Black"
+                                       FontAttributes="Bold"/>
+                </StackLayout>
+                <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="game124"/>
+                                <!--aaaaaaaaaaaaaaaaaa-->
+                            </StackLayout.GestureRecognizers>
+            </StackLayout>
+            <Image Source="line.png" Aspect="AspectFill" Margin="-30,10,0,10"/>
+            <StackLayout Orientation="Horizontal">
+            <StackLayout  HorizontalOptions="Start">
+                <!--aaaaaaaaaaaaaaa-->
+                                <Label Text="Музыкальное пианино" 
+                                       TextColor="Black"
+                                       FontSize="17"
+                                       />
+            </StackLayout>
+            <StackLayout  HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand">
+                <Label Text=">"
+                                       TextColor="Black"
+                                       FontAttributes="Bold"/>
+            </StackLayout>
+            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="game125"/>
+                                <!--aaaaaaaaaaaaaaaaaa-->
+                            </StackLayout.GestureRecognizers>
+            </StackLayout>
+            <Image Source="line.png" Aspect="AspectFill" Margin="-30,10,0,10"/>
+            <StackLayout Orientation="Horizontal">
+                <StackLayout  HorizontalOptions="Start">
+                    <!--aaaaaaaaaaaaaaa-->
+                                <Label Text="Книги для малыша" 
+                                       TextColor="Black"
+                                       FontSize="17"
+                                       />
+                </StackLayout>
+                <StackLayout  HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand">
+                    <Label Text=">"
+                                       TextColor="Black"
+                                       FontAttributes="Bold"/>
+                </StackLayout>
+                <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="game126"/>
+                                <!--aaaaaaaaaaaaaaaaaa-->
+                            </StackLayout.GestureRecognizers>
+            </StackLayout>
+            <Image Source="line.png" Aspect="AspectFill" Margin="-30,10,0,10"/>
+            <StackLayout Orientation="Horizontal">
+                <StackLayout  HorizontalOptions="Start">
+                    <!--aaaaaaaaaaaaaaa-->
+                                <Label Text="Музыкальные книги" 
+                                       TextColor="Black"
+                                       FontSize="17"
+                                       />
+                </StackLayout>
+                <StackLayout  HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand">
+                    <Label Text=">"
+                                       TextColor="Black"
+                                       FontAttributes="Bold"/>
+                </StackLayout>
+                <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="game127"/>
+                                <!--aaaaaaaaaaaaaaaaaa-->
+                            </StackLayout.GestureRecognizers>
+            </StackLayout>
+            <Image Source="line.png" Aspect="AspectFill" Margin="-30,10,0,10"/>
+            <StackLayout Orientation="Horizontal">
+                <StackLayout  HorizontalOptions="Start">
+                    <!--aaaaaaaaaaaaaaa-->
+                                <Label Text="Тактильная книга" 
+                                       TextColor="Black"
+                                       FontSize="17"
+                                       />
+                </StackLayout>
+                <StackLayout  HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand">
+                    <Label Text=">"
+                                       TextColor="Black"
+                                       FontAttributes="Bold"/>
+                </StackLayout>
+                <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="game128"/>
+                                <!--aaaaaaaaaaaaaaaaaa-->
+                            </StackLayout.GestureRecognizers>
+            </StackLayout>
+            <Image Source="line.png" Aspect="AspectFill" Margin="-30,10,0,10"/>
+            <StackLayout Orientation="Horizontal">
+                <StackLayout  HorizontalOptions="Start">
+                    <!--aaaaaaaaaaaaaaa-->
+                                <Label Text="Кубики" 
+                                       TextColor="Black"
+                                       FontSize="17"
+                                       />
+                </StackLayout>
+                <StackLayout  HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand">
+                    <Label Text=">"
+                                       TextColor="Black"
+                                       FontAttributes="Bold"/>
+                </StackLayout>
+                <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="game129"/>
+                                <!--aaaaaaaaaaaaaaaaaa-->
+                            </StackLayout.GestureRecognizers>
+            </StackLayout>
+            <Image Source="line.png" Aspect="AspectFill" Margin="-30,10,0,10"/>
+            <StackLayout Orientation="Horizontal">
+                <StackLayout  HorizontalOptions="Start">
+                    <!--aaaaaaaaaaaaaaa-->
+                                <Label Text="Первый конструктор" 
+                                       TextColor="Black"
+                                       FontSize="17"
+                                       />
+                </StackLayout>
+                <StackLayout  HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand">
+                    <Label Text=">"
+                                       TextColor="Black"
+                                       FontAttributes="Bold"/>
+                </StackLayout>
+                <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="game130"/>
+                                <!--aaaaaaaaaaaaaaaaaa-->
+                            </StackLayout.GestureRecognizers>
+            </StackLayout>
+            <Image Source="line.png" Aspect="AspectFill" Margin="-30,10,0,10"/>
+            <StackLayout Orientation="Horizontal">
+            <StackLayout  HorizontalOptions="Start">
+                <!--aaaaaaaaaaaaaaa-->
+                                <Label Text="Сортер" 
+                                       TextColor="Black"
+                                       FontSize="17"
+                                       />
+            </StackLayout>
+            <StackLayout  HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand">
+                <Label Text=">"
+                                       TextColor="Black"
+                                       FontAttributes="Bold"/>
+            </StackLayout>
+            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="game131"/>
+                                <!--aaaaaaaaaaaaaaaaaa-->
+                            </StackLayout.GestureRecognizers>
+            </StackLayout>
+            <Image Source="line.png" Aspect="AspectFill" Margin="-30,10,0,10"/>
+            <StackLayout Orientation="Horizontal">
+                <StackLayout  HorizontalOptions="Start">
+                    <!--aaaaaaaaaaaaaaa-->
+                                <Label Text="Матрёшка" 
+                                       TextColor="Black"
+                                       FontSize="17"
+                                       />
+                </StackLayout>
+                <StackLayout  HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand">
+                    <Label Text=">"
+                                       TextColor="Black"
+                                       FontAttributes="Bold"/>
+                </StackLayout>
+                <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="game132"/>
+                                <!--aaaaaaaaaaaaaaaaaa-->
+                            </StackLayout.GestureRecognizers>
+            </StackLayout>
+            <Image Source="line.png" Aspect="AspectFill" Margin="-30,10,0,10"/>
+            <StackLayout Orientation="Horizontal">
+                <StackLayout  HorizontalOptions="Start">
+                    <!--aaaaaaaaaaaaaaa-->
+                                <Label Text="Набор посуды" 
+                                       TextColor="Black"
+                                       FontSize="17"
+                                       />
+                </StackLayout>
+                <StackLayout  HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand">
+                    <Label Text=">"
+                                       TextColor="Black"
+                                       FontAttributes="Bold"/>
+                </StackLayout>
+                <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="game133"/>
+                                <!--aaaaaaaaaaaaaaaaaa-->
+                            </StackLayout.GestureRecognizers>
+            </StackLayout>
+            <Image Source="line.png" Aspect="AspectFill" Margin="-30,10,0,10"/>
+            <StackLayout Orientation="Horizontal">
+                <StackLayout  HorizontalOptions="Start">
+                    <!--aaaaaaaaaaaaaaa-->
+                                <Label Text="Шнуровка" 
+                                       TextColor="Black"
+                                       FontSize="17"
+                                       />
+                </StackLayout>
+                <StackLayout  HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand">
+                    <Label Text=">"
+                                       TextColor="Black"
+                                       FontAttributes="Bold"/>
+                </StackLayout>
+                <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="game134"/>
+                                <!--aaaaaaaaaaaaaaaaaa-->
+                            </StackLayout.GestureRecognizers>
+            </StackLayout>
+            <Image Source="line.png" Aspect="AspectFill" Margin="-30,10,0,10"/>
+            <StackLayout Orientation="Horizontal">
+                <StackLayout  HorizontalOptions="Start">
+                    <!--aaaaaaaaaaaaaaa-->
+                                <Label Text="Бубен" 
+                                       TextColor="Black"
+                                       FontSize="17"
+                                       />
+                </StackLayout>
+                <StackLayout  HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand">
+                    <Label Text=">"
+                                       TextColor="Black"
+                                       FontAttributes="Bold"/>
+                </StackLayout>
+                <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="game135"/>
+                                <!--aaaaaaaaaaaaaaaaaa-->
+                            </StackLayout.GestureRecognizers>
+            </StackLayout>
+            <Image Source="line.png" Aspect="AspectFill" Margin="-30,10,0,10"/>
+            <StackLayout Orientation="Horizontal">
+                <StackLayout  HorizontalOptions="Start">
+                    <!--aaaaaaaaaaaaaaa-->
+                                <Label Text="Лабиринт" 
+                                       TextColor="Black"
+                                       FontSize="17"
+                                       />
+                </StackLayout>
+                <StackLayout  HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand">
+                    <Label Text=">"
+                                       TextColor="Black"
+                                       FontAttributes="Bold"/>
+                </StackLayout>
+                <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="game136"/>
+                                <!--aaaaaaaaaaaaaaaaaa-->
+                            </StackLayout.GestureRecognizers>
+            </StackLayout>
+            <Image Source="line.png" Aspect="AspectFill" Margin="-30,10,0,10"/>
+            <StackLayout Orientation="Horizontal">
+            <StackLayout  HorizontalOptions="Start">
+                <!--aaaaaaaaaaaaaaa-->
+                                <Label Text="Книги" 
+                                       TextColor="Black"
+                                       FontSize="17"
+                                       />
+            </StackLayout>
+            <StackLayout  HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand">
+                <Label Text=">"
+                                       TextColor="Black"
+                                       FontAttributes="Bold"/>
+            </StackLayout>
+            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="game137"/>
+                                <!--aaaaaaaaaaaaaaaaaa-->
+                            </StackLayout.GestureRecognizers>
+            </StackLayout>
+            <Image Source="line.png" Aspect="AspectFill" Margin="-30,10,0,10"/>
+            <StackLayout Orientation="Horizontal">
+                <StackLayout  HorizontalOptions="Start">
+                    <!--aaaaaaaaaaaaaaa-->
+                                <Label Text="Книга - пазл" 
+                                       TextColor="Black"
+                                       FontSize="17"
+                                       />
+                </StackLayout>
+                <StackLayout  HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand">
+                    <Label Text=">"
+                                       TextColor="Black"
+                                       FontAttributes="Bold"/>
+                </StackLayout>
+                <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="game138"/>
+                                <!--aaaaaaaaaaaaaaaaaa-->
+                            </StackLayout.GestureRecognizers>
+            </StackLayout>
+            <Image Source="line.png" Aspect="AspectFill" Margin="-30,10,0,10"/>
+            <StackLayout Orientation="Horizontal">
+                <StackLayout  HorizontalOptions="Start">
+                    <!--aaaaaaaaaaaaaaa-->
+                                <Label Text="Книга для ванной" 
+                                       TextColor="Black"
+                                       FontSize="17"
+                                       />
+                </StackLayout>
+                <StackLayout  HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand">
+                    <Label Text=">"
+                                       TextColor="Black"
+                                       FontAttributes="Bold"/>
+                </StackLayout>
+                <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="game139"/>
+                                <!--aaaaaaaaaaaaaaaaaa-->
+                            </StackLayout.GestureRecognizers>
+            </StackLayout>
+            <Image Source="line.png" Aspect="AspectFill" Margin="-30,10,0,10"/>
+            <StackLayout Orientation="Horizontal">
+                <StackLayout  HorizontalOptions="Start">
+                    <!--aaaaaaaaaaaaaaa-->
+                                <Label Text="Рамка- вкладыш" 
+                                       TextColor="Black"
+                                       FontSize="17"
+                                       />
+                </StackLayout>
+                <StackLayout  HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand">
+                    <Label Text=">"
+                                       TextColor="Black"
+                                       FontAttributes="Bold"/>
+                </StackLayout>
+                <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="game140"/>
+                                <!--aaaaaaaaaaaaaaaaaa-->
+                            </StackLayout.GestureRecognizers>
+            </StackLayout>
+            <Image Source="line.png" Aspect="AspectFill" Margin="-30,10,0,10"/>
+            <StackLayout Orientation="Horizontal">
+                <StackLayout  HorizontalOptions="Start">
+                    <!--aaaaaaaaaaaaaaa-->
+                                <Label Text="Конструктор" 
+                                       TextColor="Black"
+                                       FontSize="17"
+                                       />
+                </StackLayout>
+                <StackLayout  HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand">
+                    <Label Text=">"
+                                       TextColor="Black"
+                                       FontAttributes="Bold"/>
+                </StackLayout>
+                <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="game141"/><!--aaaaaaaaaaaaaaaaaa-->
+                </StackLayout.GestureRecognizers>
+            </StackLayout>
+            
+            </StackLayout>
+                </Frame>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box134"
+             BackgroundColor="#e5e5e5"
+             Title="Погремушка">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <!--имя-->
+                        <Label Text="Шнуровка " 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="Игра-шнуровка представляет собой основу, в которой проделаны отверстия: через них ребёнок должен продевать шнурки. Шнуровка – это один из самых эффективных способов развития мелкой моторики рук, усидчивости и терпеливости, умения сконцентрироваться, желания достичь результата."
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                        <!--как-->
+                        <Label Text="Перед тем как дать шнуровку ребенку, эмоционально и красочно расскажи, как червячок решил сгрызть яблоко или арбуз, мышка - кусочек сыра. Сделай так, чтоб малышу было весело и забавно протаскивать палочку через отверстия. Хлопай в ладоши, радуйся и удивляйся первым успехам ребенка. Подбадривай и предлагай попробовать еще раз при неудачных попытках. Конечно, сначала кроха будет выполнять только одно действие (проталкивать или вытаскивать палочку со шнурком), но по мере овладения этими навыками, он будет выполнять все действия самостоятельно."
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

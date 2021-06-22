@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.game0113" Title="Пуговицы"
+             BackgroundColor="#e5e5e5">
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame  BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <Label Text="Пуговицы"
+                       TextColor="Black"
+                       FontSize="25"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"/>
+                        <Label Text="Нашей на наволочку пуговицы разных размеров, формы, цвета, фактуры (пуговицы должны быть пришиты очень прочно, чтобы обеспечить безопасность ребенка). Рассматривайте их с малышом, обязательно дай малышу возможность погладить пуговицы (почувствовать разные фактуры), обвести их по контуру пальчиком (круглая пуговица или пуговица с уголками разные по тактильным ощущениям). Называй цвет, размер пуговки (большая, маленькая), фактуру (гладкая, шероховатая). Малыш еще не говорит, но он слышит и запоминает слова, выделяет из потока речи знакомые слова."
+                           TextColor="Black"
+                           FontSize="20"
+                           HorizontalOptions="FillAndExpand"/>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

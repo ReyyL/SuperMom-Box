@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box132"
+             BackgroundColor="#e5e5e5"
+             Title="Погремушка">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <!--имя-->
+                        <Label Text="Матрёшка" 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="Народная игрушка, с помощью которой мы приобщаем ребенка к истокам нашей культуры. Кроме того, отличная вещь, которая развивает мышление, учит малыша выделять разные величины одинаковых предметов, тем самым развивая координацию рук и глаз."
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                        <!--как-->
+                        <Label Text="При первом знакомстве покажи малышу только самую большую матрёшку (позже побольше и самую маленькую, к полутора годам можно доставать остальные). Не вынимай из неё других куколок, дай малышу потрясти матрёшку и послушать, как она гремит. Скажи: «Посмотри, какая куколка! Это матрёшка, она гладкая!» Дай малышу погладить игрушку. «Ой, смотри! У нее еще есть матрёшка. Маленькая. Вот какие матрёшки – большая и маленькая!». Матрешку не нужно использовать в ежедневной игре, её можно доставать время от времени. "
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

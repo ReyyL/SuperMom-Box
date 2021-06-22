@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Views.box115"
+             BackgroundColor="#e5e5e5"
+             Title="Погремушка">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White"
+                       CornerRadius="3"
+                       Margin="20,20,20,0">
+                    <StackLayout>
+                        <!--имя-->
+                        <Label Text="Дудочка" 
+                TextColor="Black"
+                 FontSize="25"
+                 HorizontalOptions="Start"
+                   Margin="30,0,0,10"/>
+                        <!--описание-->
+                        <Label Text="Маленькая яркая дудочка станет прекрасным подарком и надолго увлечёт малыша. Игрушка выполнена из качественных, безопасных материалов и развивает не только слуховое восприятие, но и концентрацию внимания."
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                        <Label Text="Как играть?"
+                TextColor="Black"
+                 FontSize="20"
+                   FontAttributes="Bold"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                        <!--как-->
+                        <Label Text="Привлеките внимание малыша с помощью дудочки.Можно дудеть в такт какой-то мелодии, деть быстро или медленно. Позжеможно будет выучить понятия «тихо» и «громко».Устраивайте почаще такие 'музыкальные занятия' – так Вы воспитаете в малыше слух и ритм.Кроме того, с трёх месяцев пальчики малыша начинают постепенно разгибаться. До этого они были плотно сжаты в кулачок. Для развития умения захватывать предметы, очень удобно использовать дудочку, ведь малыш может за нее ухватиться. "
+                TextColor="Black"
+                 FontSize="15"
+                 HorizontalOptions="Start"
+                   Margin="15,0,15,10"/>
+                    </StackLayout>
+                </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
